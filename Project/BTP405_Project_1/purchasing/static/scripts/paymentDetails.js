@@ -235,6 +235,7 @@ function getSeatType(seatName) {
   await specifyUserDetails();
   await activateTimer();
   disableLoadingCoverEntireContent();
+  document.getElementById("hideplsmore").style.display = "block";
 })();
 let totalPrice = 0;
 

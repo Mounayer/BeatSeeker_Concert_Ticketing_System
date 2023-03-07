@@ -5,6 +5,8 @@
 {% endblock %}
 
 {% block content %}
+    <div style="display: none" id="hiding">
+    <script defer src="{% static 'scripts/seats.js' %}"></script>
     <script>
         const chosen_url = "{% static 'images/chair_chosen.svg' %}";
         const vacant_url = "{% static 'images/chair_vacant.svg' %}";
@@ -12,7 +14,6 @@
         const barcode_url = "{% static 'images/barcode.png' %}";
     </script>
     <link rel="stylesheet" href="{% static 'styles/seats.css' %}">
-    <script defer src="{% static 'scripts/seats.js' %}"></script>
     <div class="container-fluid">
         <div class="row mb-5 body">
             <div class="col-xxl col">
@@ -61,7 +62,7 @@
             </div>
         </div>
     </div>
-    </div>
+
     <!-- Modal -->
     <div class="modal fade" id="seats" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
          aria-hidden="true">
@@ -98,5 +99,5 @@
             </div>
         </div>
     </div>
-
+</div>
 {% endblock %}

@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block content %}
+    <div id="hideplsmore" style="display: none">
     <script src="https://js.stripe.com/v3/"></script>
     {% csrf_token %}
     <h1 class="timeout_container regular_color"><span class="timer_1">You have</span> <span class="timeout attention_color"></span> <span class="timer_2">for payment</span>.</h1>
@@ -32,4 +33,5 @@
     <h1 class="text-center regular_color" style="visibility: hidden" id="payment_message">Container</h1>
     <script defer src="{% static 'scripts/paymentDetails.js' %}"></script>
     <link rel="stylesheet" href="{% static 'styles/pay.css' %}">
+    </div>
 {% endblock %}

@@ -38,8 +38,7 @@ const dictionary = {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  // createLoadingCoverForElement(document.getElementById("concert_container"));
-  // activateLoadingCoverForElement(document.getElementById("concert_container"));
+
   addLoadingCoverEntireContent();
 
   let lang = translation(dictionary);
@@ -112,9 +111,8 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = `/concert/seats/?id=${the_id}`;
       });
 
-      // disableLoadingCoverForElement(
-      //   document.getElementById("concert_container")
-      // );
+      document.getElementById("concert_container").style.display = "block";
+
       disableLoadingCoverEntireContent();
     })
     .catch((err) => {

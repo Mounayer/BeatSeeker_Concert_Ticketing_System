@@ -350,6 +350,7 @@ function createStripeForm() {
             });
             console.log(document.querySelector('#root'));
             disableLoadingCoverEntireContent();
+            document.getElementById("hidepls").style.display = "block";
         });
     }
 

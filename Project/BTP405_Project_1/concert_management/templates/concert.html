@@ -8,7 +8,7 @@ Concerts
 {% block content %}
 <link rel="stylesheet" href="{% static 'styles/concert.css' %}">
 <br>
-<div class="container" id="concert_container">
+<div class="container" id="concert_container" style="display: none">
     <div class="ticket-container">
         <div class="ticket-info-box" id="concert_header">
             <h2 class="text-center concert_title attention_color font_family" style="margin-top: 0;" id="concertname">
@@ -45,6 +45,6 @@ Concerts
 </div>
 
 <br>
-<script src="{% static 'scripts/concert.js' %}"></script>
+<script defer src="{% static 'scripts/concert.js' %}"></script>
 
 {% endblock %}
