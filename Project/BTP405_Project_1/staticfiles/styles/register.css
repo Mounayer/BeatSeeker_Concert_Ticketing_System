@@ -1,0 +1,58 @@
+.checkbox-lg .form-check-input{
+     top: .8rem;
+     scale: 1.3;
+     margin-right: 0.7rem;
+     padding-top: 13px;
+}
+.checkbox-lg .form-check-label {
+    padding-top: 11px;
+}
+
+
+
+@media (max-width: 396px) {
+  .form-group {
+    flex-direction: column;
+  }
+  #MY{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+  }
+  #pass{
+      margin-bottom: 10px !important;
+      padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 819px) {
+    label[for="cvc"] {
+        width: 100px;
+        height: 48px;
+    }
+    label[for="monthYear"] {
+        width: 100px;
+        height: 48px;
+    }
+    label[for="credit-number"] {
+        width: 100px;
+        height: 48px;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.button-container button {
+    flex: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 50px !important;
+}
+

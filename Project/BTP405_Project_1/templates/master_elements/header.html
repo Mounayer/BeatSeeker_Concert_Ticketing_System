@@ -1,0 +1,241 @@
+{% load static %}
+<!-- >https://icons8.com/icon/21525/summer (Summer Icon) -->
+<!-- >https://icons8.com/icon/33082/full-moon (Moon Icon) -->
+
+<nav class="headernavbar background_color navbar-dark navbar pr-5">
+    <div class="container-fluid header_body">
+        <a class="navbar-brand brand display-6 logo" href="/">BeatSeeker</a>
+        <button class="navbar-toggler" type="button">
+            <i class="fa-solid exported_icon attention_color fa-bars"></i>
+        </button>
+        <div class="header_buttons d-flex align-items-center">
+            <select class="ml-auto language-select header_togglers">
+                <option value="English">English</option>
+                <option value="French">French</option>
+            </select>
+            &nbsp;
+            <select class="ml-auto header_togglers currency-select">
+                <option value="CAD">CAD</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <label class="switch header_theme_switch mx-3 theme_switch">
+                <input type="checkbox" class="checkbox theme_toggler">
+                <span class="toggle-thumb">
+          <img src="https://img.icons8.com/office/30/null/summer.png" height="20" width="20" class="sun_icon"/>
+          <img src="https://img.icons8.com/office/30/null/full-moon.png" height="20" width="20" class="moon_icon"/>
+     </span>
+            </label>
+            <div class="profile-dropdown dropdown d-flex justify-content-center">
+                <i class="fa-solid attention_color header_user_profile fa-user exported_icon user_profile_icon"
+                   data-toggle="dropdown"></i>
+                <div class="profile-dropdown-menu-center header_dropdown_profile sidenav_profile_dropdown profile_menu">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<nav class="sidenav transition_temp side_cover background_color">
+    <div class="container-fluid p-3">
+        <div class="row">
+            <div class="col justify-content-between d-flex py-3 close_sidenav_container">
+                <div class="sidenav_buttons_container d-flex align-items-center">
+                    <div class="navbar-menu profile-dropdown dropdown d-flex">
+                        <i class="fa-solid header_user_profile attention_color fa-user exported_icon user_profile_icon"
+                           data-toggle="dropdown"></i>
+                        <div class="profile-dropdown-menu-right profile-dropdown-menu-center profile_menu">
+
+                        </div>
+                    </div>
+                    <label class="switch mx-3 sidenav_theme_switch theme_switch">
+                        <input type="checkbox" class="checkbox theme_toggler">
+                        <span class="toggle-thumb">
+          <img src="https://img.icons8.com/office/30/null/summer.png" height="20" width="20" class="sun_icon"/>
+          <img src="https://img.icons8.com/office/30/null/full-moon.png" height="20" width="20" class="moon_icon"/>
+     </span>
+                    </label>
+                    <select class="language-select ml-auto sidenav_toggler">
+                        <option value="English">English</option>
+                        <option value="French">French</option>
+                    </select>
+                    &nbsp;
+                    <select class="ml-auto currency-select sidenav_toggler">
+                        <option value="CAD">CAD</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                </div>
+
+                <i class="exported_icon fa-solid fa-xmark close_sidenav attention_color"></i>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col accordion-col">
+                <div class="accordion background_color" id="accordionExample">
+                    <div class="card mb-5 sidenav_item accordion-item btn">
+                        <div class="card-header accordion-title-link p-0">
+                            <h2 class="mb-0 d-flex p-3 justify-content-between w-100 sidenav_item_link_container">
+                                <button class="sidenav_expand_button sidenav_item_link w-100 sidenav_btn active"
+                                        type="button">
+                                    <a href="/concert/all"
+                                       class="d-block all-concerts w-100 h-100 sidenav_item_link_a text-left">All
+                                        concerts</a>
+                                </button>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="card mb-5 sidenav_item accordion-item btn">
+                        <div class="card-header accordion-title p-0" role="button" id="headingThree">
+                            <h2 class="mb-0 d-flex p-3 justify-content-between" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <button class="sidenav_expand_button sidenav_btn active" type="button">
+                                    Genre
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseThree" class="collapse accordion-body background_color"
+                             aria-labelledby="headingOne"
+                        >
+                            <div class="card-body">
+                                <div class="list-group list-unstyled" data-filter="genre">
+                                    <button data-value="blues"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Blues
+                                    </button>
+                                    <button data-value="classical"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Classical
+                                    </button>
+                                    <button data-value="country"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Country
+                                    </button>
+                                    <button data-value="dance"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Dance
+                                    </button>
+                                    <button data-value="EDM"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Electronic
+                                    </button>
+                                    <button data-value="folk"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Folk
+                                    </button>
+                                    <button data-value="hip-hop"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Hip-Hop
+                                    </button>
+                                    <button data-value="jazz"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Jazz
+                                    </button>
+                                    <button data-value="metal"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Metal
+                                    </button>
+                                    <button data-value="pop"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Pop
+                                    </button>
+                                    <button data-value="reggae"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Reggae
+                                    </button>
+                                    <button data-value="rock"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Rock
+                                    </button>
+                                    <button data-value="soul"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Soul
+                                    </button>
+                                    <button data-value="world"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        World
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-5 sidenav_item accordion-item btn">
+                        <div class="card-header accordion-title p-0" role="button" id="headingTwo">
+                            <h2 class="mb-0 d-flex p-3 justify-content-between" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <button class="sidenav_expand_button sidenav_btn active" type="button">
+                                    Cheapest tickets
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseTwo" class="collapse accordion-body background_color"
+                             aria-labelledby="headingOne"
+                        >
+                            <div class="card-body">
+                                <div class="list-group list-unstyled" data-filter="price">
+                                    <button data-value="100"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Less than 100$
+                                    </button>
+                                    <button data-value="250"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Less than 250$
+                                    </button>
+                                    <button data-value="500"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Less than 500$
+                                    </button>
+                                    <button data-value="1000"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Less than 1000$
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-5 sidenav_item accordion-item btn">
+                        <div class="card-header accordion-title p-0" role="button" id="headingFour">
+                            <h2 class="mb-0 d-flex p-3 justify-content-between" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseFour">
+                                <button class="sidenav_expand_button sidenav_btn active" type="button">
+                                    Age to attend
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseFour" class="collapse accordion-body background_color"
+                             aria-labelledby="headingFour"
+                        >
+                            <div class="card-body">
+                                <div class="list-group list-unstyled" data-filter="age">
+                                    <button data-value="14"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        Concerts for kids
+                                    </button>
+                                    <button data-value="16"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        16+
+                                    </button>
+                                    <button data-value="18"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        18+
+                                    </button>
+                                    <button data-value="21"
+                                            class="text-left list-group-item btn button_color sidenav_link list-group-item-action active">
+                                        21+
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="page_rest side_cover attention_bg_color">
+
+</div>

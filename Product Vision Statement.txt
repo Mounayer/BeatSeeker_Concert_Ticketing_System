@@ -1,0 +1,6 @@
+For (music enthusiasts and artists)
+WHO (are looking for a simple way to purchase and sell concert tickets)
+The (BeatSeeker) is a website 
+That (sells tickets to live concerts in your area, helping discover unforgettable live experiences).
+UNLIKE (TicketMaster),
+BeatSeeker (focuses mainly on concerts, thus, variety and undiscovered talent will be found easier.)

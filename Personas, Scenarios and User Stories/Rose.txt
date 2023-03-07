@@ -1,0 +1,21 @@
+Persona:
+
+Rose is a 36 year old independent artist. She was born in 1987 in japan. She immigrated to Canada with her family when she was 18 years old. Both of her parents passed away 7 years ago. She has a masters degree in Medicine.
+
+After being in the medical industry for 8 years, she discovered her passion for music. She quit her job and started recording music on her iPhone. After showing it to one of her friends, she was encouraged to upload her videos to YouTube. Since she is not an expert in technology, her friend helped her upload it to YouTube. In a short time she gained a considerable number of subscribers. She wants to hold a small concert with some local artists in a local bar. She was looking for a way to sell tickets via the popular website Ticketmaster. But she found the website too convoluted. She is looking for an alternative website to sell her concert tickets locally.
+
+
+
+Scenario:
+
+Rose is an independent artist. After receiving tons of support from her fans, she decided to do a live show. 
+She wants to sell tickets for her first live show in a local bar. The bar is not very large and since she is going to be sharing it with other local artists the bar owner has given her 30 seats to sell. She first checked out TicketMaster since its the most popular one. After navigating the convoluted website, she finally found a way to sell the ticket. But she was soon disappointed to find that she can not list her show since it does not meet the minimum seat requirement. After hearing from her friend about BeatSeeker, she decided to check out the website. She saw a button on the home page that says [sell tickets/for local artists].
+
+It took her to a form that needed general information about the venue such as location, number of seats, types of seats, date and time of the event, price etc. She filled out her form. In a few minutes she was able to have tickets for her events on the website. After she made a social media post, the tickets sold out quick. She saw the number of tickets go from 30 to 24 to 9 to 0 in a few hours.
+
+
+
+User Stories:
+
+As an artist I want to be able to list ticket for sale, so that my fans can buy them.
+As an artist I want to be able to see how many tickets have been sold.

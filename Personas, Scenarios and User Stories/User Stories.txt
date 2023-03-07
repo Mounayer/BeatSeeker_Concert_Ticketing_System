@@ -1,0 +1,55 @@
+Fiona (Event Planner):
+
+- As an event planner, I would like to be able to sell tickets for the concerts of newcomer bands and artists on BeatSeeker, so that they are discovered locally.
+
+- As an event planner, I would like the concerts that I manage on BeatSeeker be seen when filtering by date, genre, country, Age to Attend and band, so that the concert gets more exposure.
+
+- As an event planner, I would like the concerts that are locally playing be displayed somehow on the website, so that the concerts that I manage are found easier, locally.
+
+
+Andrii (International Student):
+
+- As a client, I would like to be able to search concerts by keywords in a title so that I don't have to search it myself using a lot of filters (genre, city, arena, etc).
+
+- As a client, I would like to be able to see a price of a seat by hovering over it so that I don't have to go to the 'payments' page and read the price there.
+
+- As a client, I would like to be able to see which seats are taken and which seats are vacant so that I don't have to read a lot of error messages like 'This seat is already taken, choose a different one'.
+
+- As a client, I would like to be able to select multiple seats for a single transaction so that I don't have to repeat the whole process of buying a ticket from the very beginning multiple times.
+
+
+Jack (University student):
+
+- As a customer, I want to be able to see information about the venue so that I can see if it is accessible for disabled people.
+
+- As a customer, I want to be able to download the PDF version of the tickets and receipt after checkout, so that I can have a copy on my local device as well as a copy in my email.
+
+
+Muhammad (Fitness Instructor):
+
+- As a customer, I would like to be able to find concerts that have deals on their tickets, so that I could save money buy purchasing the deals.
+
+- As a customer, Iw ould like my credit cards and personal information to be secure, so that my credit card does not get stolen.
+
+
+Rose (Independent artist):
+
+- As an artist I want to be able to list ticket for sale, so that my fans can buy them.
+
+- As an artist I want to be able to see how many tickets have been sold.
+
+Miguel (Event Administrator):
+
+- As an admin, I want to be able to see the amount of tickets a concert sold that I am managing, so that I know how well the concert is doing
+
+- As an admin, I want to be able to directly manage a concert page for an artist, so that I won't need to call a ticket agent to make the changes for me.
+
+- As an admin, I want to be able to see a list of all the concerts I am managing, so that I don't have to search for the specific concert if I want to make changes.
+
+Jimmy (Lawyer):
+
+- As a customer, I would like to be able to create an account so that I can save my payment information
+
+- As a customer, I would like to be able to log in so that I can see my purchase history
+
+- As a customer, I would like to be able to see the most popular concerts on the main page, so that I know which one to buy tickets for

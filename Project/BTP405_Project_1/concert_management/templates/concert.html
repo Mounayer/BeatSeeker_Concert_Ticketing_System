@@ -1,0 +1,50 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %}
+Concerts
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'styles/concert.css' %}">
+<br>
+<div class="container" id="concert_container">
+    <div class="ticket-container">
+        <div class="ticket-info-box" id="concert_header">
+            <h2 class="text-center concert_title attention_color font_family" style="margin-top: 0;" id="concertname">
+                Concert Name</h2>
+            <div class="divider dividor_color"></div>
+
+            <div class="ticket-img-box">
+                <img id="concertimage" src="https://via.placeholder.com/450x300" alt="Concert Poster"
+                     class="ticket-img img-fluid"/>
+            </div>
+            <button class="btn button_color font_family" id="buytickets_button">Buy Tickets</button>
+        </div>
+        <div class="ticket-info-box" id="concert_info">
+            <h2 class="text-center concert_title attention_color font_family" id="concert_details"
+                style="margin-top: 0;">Details</h2>
+            <div class="divider dividor_color"></div>
+            <br>
+            <p id="concertid" class="detail_list_item regular_color">Concert ID: Artist X</p>
+            <p id="performername" class="detail_list_item regular_color">Performer Name: Artist X</p>
+            <p id="genrename" class="detail_list_item regular_color">Genre: Blues</p>
+            <p id="ticketsavailable" class="detail_list_item regular_color">Tickets Available: 200</p>
+            <p id="ticketssold" class="detail_list_item regular_color">Tickets Sold: 0</p>
+            <p id="cheapestticket" class="detail_list_item regular_color">Cheapest Ticket: $50</p>
+            <p id="agetoattend" class="detail_list_item regular_color">Age to Attend: 18+</p>
+            <p id="dateofconcert" class="detail_list_item regular_color">Date: 01/01/2023</p>
+            <p id="concertstarttime" class="detail_list_item regular_color">Doors Open: 7pm</p>
+            <p id="concertendtime" class="detail_list_item regular_color">Doors Close: 11pm</p>
+            <p id="venuename" class="detail_list_item regular_color">Venue Name: Main Stage</p>
+            <p id="venueaddress" class="detail_list_item regular_color">Venue Address: 123 Main St</p>
+            <p id="concertcity" class="detail_list_item regular_color">City: Cityville</p>
+            <p id="concertcountry" class="detail_list_item regular_color">Country: Countryland</p>
+        </div>
+    </div>
+</div>
+
+<br>
+<script src="{% static 'scripts/concert.js' %}"></script>
+
+{% endblock %}

@@ -1,0 +1,16 @@
+Persona:
+
+Muhammad, age 41 is a fitness instructor in Vancouver, British Columbia. Known for its natural beauty and diverse culture, it is a popular tourist destination and home to a thriving tech industry.
+Muhammad instructs CrossFit at "Auxiliary CrossFit" in Vancouver. A small local gym in the Collingwood neighbourhood. He was born in Cairo, Egypt, the capital and largest city of Egypt, known for its rich history and ancient landmarks such as the Pyramids of Giza and the Sphinx. His father was a car mechanic and his mother is a housewife. Muhammad immigrated to Canada in 2012. For as long as he remembers, Muhammad has been fascinated by everything to do with fitness. Muhammad was a football coach in Cairo and is now instructing CrossFit at "Auxiliary CrossFit" in Vancouver. Even though Muhammad loves his job, his job does not pay that much. Muhammad does not have the luxuries of going out every weekend. Muhammad is not very good with technology, the last time Muhammad used a website to purchase tickets to go and see an Adele concert, it took him a very long time to navigate TicketMaster. Additionally, his credit card information was stolen. Muhammad is particularly interested in BeatSeeker's ability to make buying concert tickets trivial to those that do not dabble with technology that often.
+
+
+Scenario:
+
+Muhammad, a fitness instructor in Vancouver, British Columbia. Muhammad wants to take his girlfriend out to a nice concert. Muhammad got on the TicketMaster, he was overwhelmed with the amount of popups he received. He wanted to choose a date for the next weekend's concerts. He clicked on "All Dates", and clicked on "This Weekend" and pressed search. Muhammad was overwhelmed with the confusingly designed user interface and the fact that he received 219675 results and the dates were not really this weekend. Muhammad spent 30 minutes trying to figure out how to display concerts this weekend in his city. But could not figure it out, and instead, took his girlfriend out for dinner. Muhammad heard from a friend that there is this new website called BeatSeeker, which is very easy to use, it only takes a couple of clicks for you to get the tickets to a concert. Muhammad's friend also told him that the BeatSeeker filtering works exactly like how you would think it does. If you choose a specific date, it will display concerts in your area at exactly that date. Muhammad now uses BeatSeeker to buy tickets for concerts, as it is very user friendly and secure.
+
+
+User Stories:
+
+As a customer, I would like to be able to find concerts that have deals on their tickets, so that I could save money buy purchasing the deals.
+
+As a customer, Iw ould like my credit cards and personal information to be secure, so that my credit card does not get stolen.

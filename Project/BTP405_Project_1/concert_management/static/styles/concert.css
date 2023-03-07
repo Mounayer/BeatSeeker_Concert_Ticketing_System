@@ -1,0 +1,80 @@
+.ticket-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ticket-info-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 30px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.ticket-img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.ticket-img {
+    object-fit: cover;
+    border: 5px solid #FFC107;
+    -webkit-user-drag: none;
+    width: 100%;
+    height: auto;
+}
+
+.divider {
+    border-top: 2px solid;
+    margin: 20px 0;
+}
+
+.btn {
+    color: #0b0b0b;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.container {
+    background-color: transparent;
+}
+
+
+
+@media (max-width: 1000px) {
+    #concert_header {
+        width: 100%;
+
+    }
+
+    #concert_info {
+        width: 100%;
+    }
+
+    #buytickets_button {
+        position: absolute;
+        bottom: 0;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    #concertimage {
+        min-width: 15em;
+
+    }
+
+}
+
+.detail_list_item {
+    font-family: "Segoe UI Black";
+}

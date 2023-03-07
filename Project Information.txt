@@ -1,0 +1,56 @@
+To Do:
+
+- Create Jira Project // Done
+
+- Domain Analysis
+
+- User Research
+
+
+
+
+Product:
+
+- Assist a company with concert ticket sales management.
+
+- Must support multiple venues:
+
+		- Each Venue will have a unique seating plan.
+
+		- Product will track types of seats instead of individual seats, each seat type is assigned a single price.
+
+		- Each Seat type will have a certain number of seats allocated to it, example (For example, the "Toronto Concert Hall" may have 100 floor seats, 500 level 1 seats, and 3000 level 2 seats while the "Sony Centre" may have 1000 gold seats and 7000 silver seats.).
+
+		- Seat type names will change from one venue to another.
+
+		
+
+- Must support multiple concerts.
+
+- Concerts are held on a PARTICULAR date and a PARTICULAR venue.
+
+- A Concert booked at a particular venue can, but does not have to, use all the seats in a venue.
+
+- A concert promoter may decide to only use 50% of the seats in the chosen venue.
+
+- The number of seats sold, shall be tracked by the system (track number of seats sold for every seat type)
+
+- Information about venues, concerts, pricing and initial account balances must be uploaded into the system. The information must be updatable by the company hosting the system.
+
+- Process requests from multiple clients simultanously.
+
+
+
+
+Users:
+
+- Have the opportunity to place orders for concert tickets.
+
+- Customers can purchase a small number of tickets, or in bulk (depends if they are a regular customer, commercial client or a reseller).
+
+
+Demographic:
+
+- We can assume that users will communicate in ENglish and make purchases in Canadian Dollars.
+
+- Product should be adesigned in a matter such that it can easily support other languages and currencies in the future.

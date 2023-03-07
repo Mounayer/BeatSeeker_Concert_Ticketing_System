@@ -1,0 +1,57 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block header %}
+
+{% endblock %}
+
+{% block title %}
+  Email
+{% endblock %}
+
+{% block content %}
+    <script defer src="{% static 'scripts/email.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'styles/email.css' %}">
+
+<br> <br>
+    <div class="form-container row d-flex justify-content-center align-items-center h-100 background_color">
+        <form class="form-group col-md-6 border_color" action='/account/reset/' method="post" id="form">{% csrf_token %}
+            <br>
+            <h3 class="text-center attention_color font_family">Reset Password</h3>
+
+            <div class="form-group mb-3">
+                <label for="email" class = "regular_color font_family">Email</label>
+                <input type="text" name="email" id="email" placeholder="Email" class="form-control" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="code" class = "regular_color font_family password_item d-none">Code</label>
+                <input type="number" class="form-control password_item d-none" name="code" id="code" placeholder="Enter code" required>
+            </div>
+
+
+        <div id="buttons" class="button-container d-flex justify-content-center align-items-center">
+            <button class="btn btn-lg button_color font_family d-flex justify-content-center" id="Next">Next</button> &nbsp;
+            <button id="clear" type="reset" class="btn btn-lg button_color font_family d-flex justify-content-center">Clear</button>
+        </div>
+        <br>
+        <br>
+        </form>
+    </div>
+
+
+
+    <div class="modal" tabindex="-1" role="dialog" id="messageModal">
+    <div class="modal-dialog border_color" role="document">
+    <div class="modal-content background_color">
+      <div class="modal-body">
+        <p class="regular_color" id="message"></p>
+      </div>
+      <div class="modal-footer">
+        <button id="mod" type="button" class="btn button_color font_family" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+{% endblock %}

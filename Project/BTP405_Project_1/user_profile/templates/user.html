@@ -1,0 +1,25 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %}
+  Profile
+{% endblock %}
+
+{% block content %}
+<script src="https://js.stripe.com/v3/"></script>
+<script src="{% static 'scripts/user_profile.js' %}"></script>
+<link rel="stylesheet" href="{% static 'styles/user.css' %}">
+<form action="" method="post">{% csrf_token %}
+</form>
+
+{% if messages %}
+  {% for message in messages %}
+    {% if message.tags %}
+      <script>alert("{{ message }}")</script>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<div class="text-center" id="profile_container">
+</div>
+{% endblock %}

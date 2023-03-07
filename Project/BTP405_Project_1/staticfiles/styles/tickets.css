@@ -1,0 +1,112 @@
+tr.header {
+    border-top: 2px solid #FFC107;
+    border-bottom: 2px solid #FFC107 !important;
+}
+
+thead tr {
+    color: white;
+}
+
+thead th {
+    color: white !important;
+}
+
+tbody th {
+    color: white !important;
+}
+
+table.table {
+    margin-bottom: 0;
+}
+
+.ticket-table td {
+    border-top: none;
+    border-bottom: 1px solid #BBC2CC;
+}
+
+.ticket-table th,
+.ticket-table thead th {
+    border: none;
+}
+
+.concert-table {
+    border-collapse: collapse;
+}
+
+.concert-table th + td {
+    border-left: 1px solid #BBC2CC !important;
+}
+
+.tickets_resize .back_button {
+    text-align: left !important;
+}
+
+@media (min-width: 1500px) {
+    .left_spacer {
+        width: 33.33% !important;
+    }
+
+    .tickets_resize {
+        width: 33.33% !important;
+    }
+
+    .right_spacer {
+        width: 33.33% !important;
+    }
+}
+
+@media (max-width: 1500px) {
+    .left_spacer {
+        width: 25% !important;
+    }
+
+    .tickets_resize {
+        width: 50% !important;
+    }
+
+    .right_spacer {
+        width: 25% !important;
+    }
+}
+
+@media (max-width: 950px) {
+    .left_spacer {
+        width: 16.67% !important;
+    }
+
+    .tickets_resize {
+        width: 66.67% !important;
+    }
+
+    .right_spacer {
+        width: 16.67% !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .left_spacer {
+        width: 8.33% !important;
+    }
+
+    .tickets_resize {
+        width: 83.33% !important;
+    }
+
+    .right_spacer {
+        width: 8.33% !important;
+    }
+}
+
+@media (max-width: 500px) {
+        .left_spacer {
+        width: 0 !important;
+    }
+
+    .tickets_resize {
+        width: 100% !important;
+    }
+
+    .right_spacer {
+        width: 0 !important;
+    }
+}

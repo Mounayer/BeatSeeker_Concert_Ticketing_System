@@ -1,0 +1,68 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %}
+Admin
+{% endblock %}
+
+{% block content %}
+<script defer src="{% static 'scripts/admin.js' %}"></script>
+<link rel="stylesheet" href="{% static 'styles/admin.css' %}">
+
+<br>
+<h1 class="text-center attention_color" id="admin_panel">Admin Panel</h1>
+<br><br>
+
+<div class="d-flex flex-column align-items-center p-3 background_color border_color_second">
+    <h5 class="text-center attention_color"><span id="admin_name">Admin Name</span>: <span class="regular_color">{{name}}</span>
+    </h5>
+    <div class="d-flex justify-content-center flex-wrap mt-4">
+        <button type="button" class="btn m-2 button_color" id="createconcertbutton" style="width: 300px;">Create
+            Concert
+        </button>
+        <button type="button" class="btn m-2 button_color" id="updateconcertbutton" style="width: 300px;">Update
+            Concert
+        </button>
+        <button type="button" class="btn m-2 button_color" id="viewrequestsbutton" style="width: 300px;">View Requests
+        </button>
+        <button type="button" class="btn m-2 button_color" id="viewconcertbutton" style="width: 300px;">View Concert
+        </button>
+        <button type="button" class="btn m-2 button_color" id="deleteconcertbutton" style="width: 300px;">Delete
+            Concert
+        </button>
+        <button type="button" class="btn m-2 button_color" id="createvenuebutton" style="width: 300px;">Create
+            Venue
+        </button>
+        <button type="button" class="btn m-2 button_color" id="updatevenuebutton" style="width: 300px;">Update
+            Venue
+        </button>
+        <!--        <span style="width: 315px;"></span>-->
+        <button type="button" class="btn m-2 button_color" id="viewvenuebutton" style="width: 300px;">View Venue
+        </button>
+        <button type="button" class="btn m-2 button_color" id="deletevenuebutton" style="width: 300px;">Delete
+            Venue
+        </button>
+
+    </div>
+
+</div>
+
+
+<div class="container-fluid" id="admincontent">
+
+</div>
+
+
+<div class="modal" tabindex="-1" role="dialog" id="messageModal">
+    <div class="modal-dialog border_color" role="document">
+        <div class="modal-content background_color">
+            <div class="modal-body">
+                <p class="regular_color" id="message"></p>
+            </div>
+            <div class="modal-footer">
+                <button id="mod" type="button" class="btn button_color font_family" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

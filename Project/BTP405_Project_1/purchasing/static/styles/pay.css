@@ -1,0 +1,20 @@
+.pay_button {
+    display: block !important;
+    margin: auto !important;
+    width: 200px !important;
+}
+.tickets_table tr {
+    border-top: 2px solid #FFC107 !important;
+}
+.tickets_table thead th {
+    border-bottom: 2px solid #FFC107 !important;
+}
+.tickets_table thead tr:first-child {
+    border-top: 2px solid white !important;
+}
+.table_bottom_edge {
+    border-bottom: 2px solid white !important;
+}
+.timeout_container {
+    margin-bottom: 20px !important;
+}

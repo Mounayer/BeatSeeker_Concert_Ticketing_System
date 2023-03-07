@@ -1,0 +1,19 @@
+Persona:
+
+Fiona, age 36 is an event manager in Montreal, Quebec. Montreal is the largest city in the province of Quebec, Canada. Known for its rich history and culture, it is a major center of art, fashion, technology, and finance. Fiona manages and supervises events for High Life Music, a Montreal based independent record label created in 2002. She was born in Dunham, Quebec, a small village only 6 miles from the Canada-US border. Where her father is a school principle and her mother is a waitress. Fiona has an AEC diploma in event planning from LaSalle College in Montreal, Quebec. Fiona has 10 years experience in event planning for upcoming artists and bands, she is confident in her abilities of promoting events locally and organizing large concerts. Fiona strongly believes in giving newcomer bands and artists a chance to break in the music industry. She is particularly interested in BeatSeeker's ability to focus on concerts of all genres and its ability to help newcomer musicians be discovered by the public.
+
+
+
+Scenario:
+
+Fiona, is an event manager in Montreal, Quebec. Montreal is a major center of art, fashion, technology, and finance. Fiona's current job is promoting a newcomer band "The Melodic Echoes" locally, whose genre is R&B. Fiona asked the band to prepare some headshots and create a playlist with their hits, to be used in the promotion. Fiona booked a venue for "The Melodic Echoes" to perform in, picked the date, created the posters, advertised locally with flyers and in bus stops. However, Fiona faced some issues trying to sell the concert tickets on TicketMaster, since her band was a newcomer to the music industry. Fiona needs a website where newcomer bands and artists can sell tickets for their concerts easily and without an issue. Fiona would like her band to be discovered under "locally playing" on the website, which would attract more attention to the band. Fiona heard from a friend about this new website "BeatSeeker" that sells tickets and focuses on Concerts only. Fiona's friend says that she heard that a local band gained recognition quickly after using BeatSeeker to sell tickets for their concerts. Fiona now uses BeatSeeker to promote newcomers to the music industry, as it helps provide exposure much easily than other websites.
+
+
+
+User Stories:
+
+As an event planner, I would like to be able to sell tickets for the concerts of newcomer bands and artists on BeatSeeker, so that they are discovered locally.
+
+As an event planner, I would like the concerts that I manage on BeatSeeker be seen when filtering by date, genre, country, Age to Attend and band, so that the concert gets more exposure.
+
+As an event planner, I would like the concerts that are locally playing be displayed somehow on the website, so that the concerts that I manage are found easier, locally.

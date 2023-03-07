@@ -1,0 +1,11 @@
+{% extends "master.html" %}
+{% load static %}
+{% block title %}
+Payment
+{% endblock %}
+
+{% block content %}
+    <script src="https://js.stripe.com/v3/"></script>
+    <script defer src="{% static 'scripts/submitted.js' %}"></script>
+    <p class="regular_color">{{message}}</p>
+{% endblock %}

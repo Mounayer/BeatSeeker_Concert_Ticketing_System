@@ -1,0 +1,195 @@
+.accinfo {
+    margin-bottom: 10px !important;
+}
+
+legend {
+    text-align: left;
+}
+
+.table tbody tr.hoverable:hover {
+    background-color: rgba(255, 255, 255, .25);
+}
+
+.table tbody tr.details {
+    background-color: #ffc10730 !important;
+}
+
+tr.header {
+    border-bottom: 2px solid #FFC107;
+    border-top: 2px solid #FFC107;
+}
+
+thead.table_header {
+    border-bottom: 2px solid #FFC107;
+    border-top: 2px solid #FFC107;
+}
+
+thead tr {
+    color: white;
+}
+
+thead th {
+    color: white !important;
+}
+
+tbody th {
+    color: white !important;
+}
+
+table.table {
+    margin-bottom: 0;
+}
+
+.table td {
+    border-top: none;
+    border-bottom: 1px solid #BBC2CC;
+}
+
+.table th,
+.table thead th {
+    border: none;
+}
+
+#credit {
+    margin-bottom: 1.75em !important;
+}
+
+@media (min-width: 1300px) {
+
+    .fieldset_align {
+        display: inline-block;
+    }
+    .userinfo_data {
+        width: 500px;
+    }
+
+    .content-change {
+        width: 50% !important;
+    }
+
+    .spacer-change {
+        width: 25% !important;
+    }
+
+    .main_display {
+        display: block !important;
+    }
+
+    .secondary_display {
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .content-change {
+        width: 66.66% !important;
+    }
+    .userinfo_data {
+        width: 400px;
+    }
+
+    .spacer-change {
+        width: 16.67% !important;
+    }
+
+    .main_display {
+        display: block !important;
+    }
+
+    .secondary_display {
+        display: none !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .content-change {
+        width: 83.33% !important;
+    }
+    .userinfo_data {
+        width: 300px;
+    }
+
+    .spacer-change {
+        width: 8.33% !important;
+    }
+
+    .main_display {
+        display: none !important;
+    }
+
+    .secondary_display {
+        display: block !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .content-change {
+        width: 100% !important;
+    }
+    .userinfo_data {
+        width: 250px;
+    }
+
+    .spacer-change {
+        width: 0 !important;
+    }
+
+    .main_display {
+        display: none !important;
+    }
+
+    .secondary_display {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .userinfo_data {
+        width: 120px;
+    }
+}
+
+.userinfo_data {
+    margin-left: 5px;
+    margin-right: 15px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.info_container {
+    align-self: center !important;
+    text-align: left;
+    align-items: center !important;
+    flex: 1 !important;
+}
+
+.control_buttons > span {
+    align-self: center !important;
+}
+
+.accept_button {
+    color: #06D618;
+}
+
+.decline_button {
+    color: #FF0000;
+}
+
+.user_info_input {
+    border: 3px solid white;
+}
+
+.user_info_icon {
+    max-height: 100%;
+    font-size: 5px;
+}
+
+.user_info_accept {
+    margin-top: -2px;
+}
+
+.edit_button {
+    margin-left: auto;
+    margin-right: 5px;
+}

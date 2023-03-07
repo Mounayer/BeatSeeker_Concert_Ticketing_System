@@ -1,0 +1,131 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Concert Tickets Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+        }
+
+        .title {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+        .ticket {
+            border: 2px solid #333;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .ticket h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .ticket p {
+            margin: 0;
+        }
+
+        .ticket-info td:nth-child(1) {
+            font-weight: bold;
+            padding-right: 20px;
+            text-align: right;
+            vertical-align: top;
+        }
+
+        tr {
+            border: none;
+        }
+
+        td {
+            border: none;
+            padding: 0;
+        }
+
+        table {
+            border: none;
+        }
+
+        .title-info-key {
+            text-align: right;
+            padding-right: 15px;
+        }
+
+        .title-info-value {
+            padding-left: 15px;
+        }
+
+        .title-info-row {
+            padding-top: 5px;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+<table style="width:100%" border="0">
+    <tr>
+        <td colspan="2" class="header">
+            <h1 class="title">{{ confirmation_title }}</h1>
+        </td>
+    </tr>
+</table>
+{% for t in tickets %}
+    <pdf:nextpage />
+    <table>
+        <tr>
+            <td style="vertical-align: top; padding-right: 20px;" colspan="2">
+                <div class="ticket">
+                    <h2>{{ seat }}: {{ t.seatName }}</h2>
+                    <table style="width: 100%;">
+                        <tr>
+                            <td>
+                                <pdf:barcode value="ticket-{{ t.seatName }}-{{ concert.id }}" type="code128"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="ticket-info">
+                        <tr>
+                            <td class="title-info-key title-info-row">{{ concert_label }}:</td>
+                            <td class="title-info-value title-info-row">{{ concert.name }}</td>
+                        </tr>
+                        <tr>
+                            <td class="title-info-key title-info-row">{{ date_label }}:</td>
+                            <td class="title-info-value title-info-row">{{ concert.date }}</td>
+                        </tr>
+                        <tr>
+                            <td class="title-info-key  title-info-row">{{ time_label }}:</td>
+                            <td class="title-info-value title-info-row">7:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="title-info-key  title-info-row">{{ location_label }}:</td>
+                            <td class="title-info-value title-info-row">{{ concert.address }}</td>
+                        </tr>
+                    </table>
+                </div>
+
+
+            </td>
+        </tr>
+    </table>
+{% endfor %}
+</body>
+</html>

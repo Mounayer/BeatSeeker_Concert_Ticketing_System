@@ -1,0 +1,23 @@
+Persona:
+
+Nineteen year-old Andrii is an international student living in Toronto. He rents a floor in a house with 2 other roommates, works out every other day, and plays video games, especially Dota 2. He likes reading books about history, and developing projects using his programming skills.
+He entered Software Development Bachelor program in Seneca College in 2021. His favourite subjects are related to web development, he hates everything related to business processes though - he wants to just focus on coding. It is not surprising that Andrii's PC usage skills are solid enough to handle difficult user interface. However, he is an impatient person, so he cannot stand unintuitive UIs and usually leaves a website if he does not understand immediatelly what to access.
+Andrii finds his days boring, so when his friend asked if he wanted to go on a concert of Gorillaz band, the one he has been listening to since his childhood, he immediatelly agreed. Andrii needs a website which he can use to buy tickets to the upcoming concert.
+
+Scenario:
+
+Andrii wants to go to a concert of 'Gorillaz' with his friend on 30th of January 2023 in Scotiabank Arena, Toronto. Andrii logs into the system, goes to the 'Concerts'
+tab. In the search bar, he types 'Gorillaz'. He then sees different upcoming Gorillaz concerts. Since there are a lot of them and he does not want to waste time reading
+the titles, he decides to filter them by date. He then selects a found concert, and sees a view of seats: taken, and vacant. He hovers over a seat, sees a price and then
+clicks on two seats to book one for him and one for his friend. After that, he clicks 'submit' button, and proceeds to the payment page, uses his credit card and then
+gets a receipt with QR code emailed to him.
+
+User Stories:
+
+As a client, I would like to be able to search concerts by keywords in a title so that I don't have to search it myself using a lot of filters (genre, city, arena, etc).
+
+As a client, I would like to be able to see a price of a seat by hovering over it so that I don't have to go to the 'payments' page and read the price there.
+
+As a client, I would like to be able to see which seats are taken and which seats are vacant so that I don't have to read a lot of error messages like 'This seat is already taken, choose a different one'.
+
+As a client, I would like to be able to select multiple seats for a single transaction so that I don't have to repeat the whole process of buying a ticket from the very beginning multiple times.

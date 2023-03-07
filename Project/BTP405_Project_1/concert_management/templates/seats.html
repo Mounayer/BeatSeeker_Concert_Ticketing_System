@@ -1,0 +1,102 @@
+{% extends "master.html" %}
+{% load static %}
+{% block title %}
+    List of all seats
+{% endblock %}
+
+{% block content %}
+    <script>
+        const chosen_url = "{% static 'images/chair_chosen.svg' %}";
+        const vacant_url = "{% static 'images/chair_vacant.svg' %}";
+        const taken_url = "{% static 'images/chair_taken.svg' %}";
+        const barcode_url = "{% static 'images/barcode.png' %}";
+    </script>
+    <link rel="stylesheet" href="{% static 'styles/seats.css' %}">
+    <script defer src="{% static 'scripts/seats.js' %}"></script>
+    <div class="container-fluid">
+        <div class="row mb-5 body">
+            <div class="col-xxl col">
+                <div class="all_seats">
+                    <div class="concert_preview mb-4 justify-content-lg-start">
+                        <div class="row">
+                            <div class="col-lg-auto concert_preview_col">
+                                <div class="concert_preview_poster">
+                                    <img src="" class="rounded mb-3 concert_small_poster"
+                                         alt="unable to find the image">
+                                </div>
+                            </div>
+                            <div class="col-lg-auto concert_preview_col">
+                                <div class="concert_preview_description">
+                                    <h4 class="concert_preview_title regular_color font-weight-bold"></h4>
+                                    <h6 class="concert_preview_date concert_details regular_color"></h6>
+                                    <h6 class="concert_preview_address concert_details regular_color"></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout_container">
+                        <div class="scene_container d-flex justify-content-center">
+                            <div class="scene mb-5">
+                                <p class="scene_title text-center regular_color mt-3">Scene</p>
+                            </div>
+                        </div>
+                        <div class="layout mx-auto mt-3"></div>
+                    </div>
+                    <button class="btn layout_button button_color d-none" data-toggle="modal" data-target="#seats">View
+                        seats
+                    </button>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-300px">
+                <div class="orders_container">
+                    <div class="temp">
+                        <h1 class="font-weight-normal text-center attention_color orders mb-5">Orders</h1>
+                        <button class="button_color d-block btn mx-auto purchase_button my-4" disabled>Purchase tickets
+                        </button>
+                        <div class="tickets_container">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="seats" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+         aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content background_color">
+                <div class="modal-header attention_color">
+                    <h5 class="modal-title" id="exampleModalLongTitle mx-3">Concert seats</h5>
+                    <button class="btn button_color increase mx-3" >Increase</button>
+                    <button class="btn button_color decrease" >Decrease</button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="attention_color" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="overflow: scroll;">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div class="layout_modal_container  mx-auto">
+                                    <div class="scene_container d-flex justify-content-center"
+                                         style="overflow-y: scroll;">
+                                        <div class="scene mb-5">
+                                            <p class="scene_title text-center regular_color mt-3">Stage</p>
+                                        </div>
+                                    </div>
+                                    <div class="layout mx-auto mt-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn button_color" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

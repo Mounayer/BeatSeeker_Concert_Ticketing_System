@@ -1,0 +1,33 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %}
+  BeatSeeker - Home
+{% endblock %}
+
+{% block content %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="{% static 'styles/home.css' %}">
+
+
+<div id="slide_header">
+
+</div>
+<br>
+<div id="slide">
+  <div style="cursor: default;" id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <script>
+      $(document).ready(function() {
+        $('#carouselIndicators').on('slide.bs.carousel', function (e) {
+          let slideFrom = $(this).find('.active').index();
+          let slideTo = $(e.relatedTarget).index();
+          $('.carousel-indicators .active').removeClass('active');
+          $(`.carousel-indicators li[data-slide-to="${slideTo}"]`).addClass('active');
+        });
+      });
+    </script>
+    <div class="carousel-inner"></div>
+  </div>
+</div>
+<script src="{% static 'scripts/home.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,788 @@
+[
+  {
+    "_id": 1,
+    "name": "Eminem's Tenth Tour",
+    "poster": "https://i.ebayimg.com/images/g/t50AAOSwBmlafQTB/s-l1600.jpg",
+    "performer": "Eminem",
+    "sold_tickets": 57,
+    "times_viewed": 257,
+    "genre": "Hip-Hop",
+    "age_to_attend": 18,
+    "disability_accessible": false,
+    "deal": false,
+    "date": {
+      "year": 2023,
+      "month": 7,
+      "day": 17
+    },
+    "time": {
+      "start": "20:00",
+      "end": "23:00"
+    },
+    "venue": {
+      "name": "ScotiaBank Arena",
+      "country": "Canada",
+      "city": "Toronto",
+      "address": "40 Bay St., Toronto, ON M5J 2X2",
+      "cheapest_seat": 20,
+      "seating": [
+        {
+          "type": "XL",
+          "total": 60,
+          "available_for_booking": 40,
+          "available": 20,
+          "sold": 20,
+          "price": 35,
+          "seats": [
+            {
+              "id": 1,
+              "vacant": true
+            },
+            {
+              "id": 2,
+              "vacant": true
+            },
+            {
+              "id": 3,
+              "vacant": true
+            },
+            {
+              "id": 4,
+              "vacant": true
+            },
+            {
+              "id": 5,
+              "vacant": false
+            },
+            {
+              "id": 6,
+              "vacant": false
+            },
+            {
+              "id": 7,
+              "vacant": true
+            },
+            {
+              "id": 8,
+              "vacant": true
+            },
+            {
+              "id": 9,
+              "vacant": true
+            },
+            {
+              "id": 10,
+              "vacant": false
+            },
+            {
+              "id": 11,
+              "vacant": true
+            },
+            {
+              "id": 12,
+              "vacant": false
+            },
+            {
+              "id": 13,
+              "vacant": true
+            },
+            {
+              "id": 14,
+              "vacant": true
+            },
+            {
+              "id": 15,
+              "vacant": true
+            },
+            {
+              "id": 16,
+              "vacant": true
+            },
+            {
+              "id": 17,
+              "vacant": false
+            },
+            {
+              "id": 18,
+              "vacant": false
+            },
+            {
+              "id": 19,
+              "vacant": false
+            },
+            {
+              "id": 20,
+              "vacant": false
+            },
+            {
+              "id": 21,
+              "vacant": false
+            },
+            {
+              "id": 22,
+              "vacant": false
+            },
+            {
+              "id": 23,
+              "vacant": false
+            },
+            {
+              "id": 24,
+              "vacant": true
+            },
+            {
+              "id": 25,
+              "vacant": true
+            },
+            {
+              "id": 26,
+              "vacant": false
+            },
+            {
+              "id": 27,
+              "vacant": false
+            },
+            {
+              "id": 28,
+              "vacant": false
+            },
+            {
+              "id": 29,
+              "vacant": false
+            },
+            {
+              "id": 30,
+              "vacant": true
+            },
+            {
+              "id": 31,
+              "vacant": false
+            },
+            {
+              "id": 32,
+              "vacant": false
+            },
+            {
+              "id": 33,
+              "vacant": false
+            },
+            {
+              "id": 34,
+              "vacant": true
+            },
+            {
+              "id": 35,
+              "vacant": true
+            },
+            {
+              "id": 36,
+              "vacant": false
+            },
+            {
+              "id": 37,
+              "vacant": true
+            },
+            {
+              "id": 38,
+              "vacant": true
+            },
+            {
+              "id": 39,
+              "vacant": true
+            },
+            {
+              "id": 40,
+              "vacant": false
+            }
+          ]
+        },
+        {
+          "type": "Coach",
+          "total": 80,
+          "available_for_booking": 80,
+          "available": 40,
+          "sold": 40,
+          "price": 20,
+          "seats": [
+            {
+              "id": 1,
+              "vacant": true
+            },
+            {
+              "id": 2,
+              "vacant": true
+            },
+            {
+              "id": 3,
+              "vacant": true
+            },
+            {
+              "id": 4,
+              "vacant": true
+            },
+            {
+              "id": 5,
+              "vacant": false
+            },
+            {
+              "id": 6,
+              "vacant": false
+            },
+            {
+              "id": 7,
+              "vacant": true
+            },
+            {
+              "id": 8,
+              "vacant": true
+            },
+            {
+              "id": 9,
+              "vacant": true
+            },
+            {
+              "id": 10,
+              "vacant": false
+            },
+            {
+              "id": 11,
+              "vacant": true
+            },
+            {
+              "id": 12,
+              "vacant": false
+            },
+            {
+              "id": 13,
+              "vacant": true
+            },
+            {
+              "id": 14,
+              "vacant": true
+            },
+            {
+              "id": 15,
+              "vacant": true
+            },
+            {
+              "id": 16,
+              "vacant": true
+            },
+            {
+              "id": 17,
+              "vacant": false
+            },
+            {
+              "id": 18,
+              "vacant": false
+            },
+            {
+              "id": 19,
+              "vacant": false
+            },
+            {
+              "id": 20,
+              "vacant": false
+            },
+            {
+              "id": 21,
+              "vacant": false
+            },
+            {
+              "id": 22,
+              "vacant": false
+            },
+            {
+              "id": 23,
+              "vacant": false
+            },
+            {
+              "id": 24,
+              "vacant": true
+            },
+            {
+              "id": 25,
+              "vacant": true
+            },
+            {
+              "id": 26,
+              "vacant": false
+            },
+            {
+              "id": 27,
+              "vacant": false
+            },
+            {
+              "id": 28,
+              "vacant": false
+            },
+            {
+              "id": 29,
+              "vacant": false
+            },
+            {
+              "id": 30,
+              "vacant": true
+            },
+            {
+              "id": 31,
+              "vacant": false
+            },
+            {
+              "id": 32,
+              "vacant": false
+            },
+            {
+              "id": 33,
+              "vacant": false
+            },
+            {
+              "id": 34,
+              "vacant": true
+            },
+            {
+              "id": 35,
+              "vacant": true
+            },
+            {
+              "id": 36,
+              "vacant": false
+            },
+            {
+              "id": 37,
+              "vacant": true
+            },
+            {
+              "id": 38,
+              "vacant": true
+            },
+            {
+              "id": 39,
+              "vacant": true
+            },
+            {
+              "id": 40,
+              "vacant": false
+            },
+            {
+              "id": 41,
+              "vacant": true
+            },
+            {
+              "id": 42,
+              "vacant": true
+            },
+            {
+              "id": 43,
+              "vacant": true
+            },
+            {
+              "id": 44,
+              "vacant": true
+            },
+            {
+              "id": 45,
+              "vacant": false
+            },
+            {
+              "id": 46,
+              "vacant": false
+            },
+            {
+              "id": 47,
+              "vacant": true
+            },
+            {
+              "id": 48,
+              "vacant": true
+            },
+            {
+              "id": 49,
+              "vacant": true
+            },
+            {
+              "id": 50,
+              "vacant": false
+            },
+            {
+              "id": 51,
+              "vacant": true
+            },
+            {
+              "id": 52,
+              "vacant": false
+            },
+            {
+              "id": 53,
+              "vacant": true
+            },
+            {
+              "id": 54,
+              "vacant": true
+            },
+            {
+              "id": 55,
+              "vacant": true
+            },
+            {
+              "id": 56,
+              "vacant": true
+            },
+            {
+              "id": 57,
+              "vacant": false
+            },
+            {
+              "id": 58,
+              "vacant": false
+            },
+            {
+              "id": 59,
+              "vacant": false
+            },
+            {
+              "id": 60,
+              "vacant": false
+            },
+            {
+              "id": 61,
+              "vacant": false
+            },
+            {
+              "id": 62,
+              "vacant": false
+            },
+            {
+              "id": 63,
+              "vacant": false
+            },
+            {
+              "id": 64,
+              "vacant": true
+            },
+            {
+              "id": 65,
+              "vacant": true
+            },
+            {
+              "id": 66,
+              "vacant": false
+            },
+            {
+              "id": 67,
+              "vacant": false
+            },
+            {
+              "id": 68,
+              "vacant": false
+            },
+            {
+              "id": 69,
+              "vacant": false
+            },
+            {
+              "id": 70,
+              "vacant": true
+            },
+            {
+              "id": 71,
+              "vacant": false
+            },
+            {
+              "id": 72,
+              "vacant": false
+            },
+            {
+              "id": 73,
+              "vacant": false
+            },
+            {
+              "id": 74,
+              "vacant": true
+            },
+            {
+              "id": 75,
+              "vacant": true
+            },
+            {
+              "id": 76,
+              "vacant": false
+            },
+            {
+              "id": 77,
+              "vacant": true
+            },
+            {
+              "id": 78,
+              "vacant": true
+            },
+            {
+              "id": 79,
+              "vacant": true
+            },
+            {
+              "id": 80,
+              "vacant": false
+            }
+          ]
+        },
+        {
+          "type": "First-Class",
+          "total": 15,
+          "available_for_booking": 10,
+          "available": 5,
+          "sold": 5,
+          "price": 90,
+          "seats": [
+            {
+              "id": 1,
+              "vacant": true
+            },
+            {
+              "id": 2,
+              "vacant": true
+            },
+            {
+              "id": 3,
+              "vacant": false
+            },
+            {
+              "id": 4,
+              "vacant": true
+            },
+            {
+              "id": 5,
+              "vacant": false
+            },
+            {
+              "id": 6,
+              "vacant": false
+            },
+            {
+              "id": 7,
+              "vacant": true
+            },
+            {
+              "id": 8,
+              "vacant": true
+            },
+            {
+              "id": 9,
+              "vacant": false
+            },
+            {
+              "id": 10,
+              "vacant": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": 2,
+    "name": "Boney M - Resurrection",
+    "genre": "Pop",
+    "age_to_attend": 16,
+    "disability_accessible": true,
+    "deal": true,
+    "performer": "Boney M",
+    "poster": "https://cdn11.bigcommerce.com/s-z8po3a6jm1/images/stencil/1280x1280/products/9806/16352/0B1A7D6E-19F6-4963-8D89-89F048E20344__73296.1637263099.jpg?c=1",
+    "sold_tickets": 10,
+    "times_viewed": 150,
+    "date": {
+      "year": 2023,
+      "month": 11,
+      "day": 27
+    },
+    "time": {
+      "start": "17:00",
+      "end": "19:00"
+    },
+    "venue": {
+      "name": "ScotiaBank Arena",
+      "address": "40 Bay St., Toronto, ON M5J 2X2",
+      "country": "Canada",
+      "city": "Toronto",
+      "cheapest_seat": 15,
+      "seating": [
+        {
+          "type": "XL",
+          "total": 9,
+          "available_for_booking": 5,
+          "available": 3,
+          "sold": 2,
+          "price": 24,
+          "seats": [
+            {
+              "id": 1,
+              "vacant": true
+            },
+            {
+              "id": 2,
+              "vacant": false
+            },
+            {
+              "id": 3,
+              "vacant": false
+            },
+            {
+              "id": 4,
+              "vacant": true
+            },
+            {
+              "id": 5,
+              "vacant": true
+            }
+          ]
+        },
+        {
+          "type": "Coach",
+          "total": 7,
+          "available_for_booking": 7,
+          "available": 1,
+          "sold": 6,
+          "price": 15,
+          "seats": [
+            {
+              "id": 1,
+              "vacant": true
+            },
+            {
+              "id": 2,
+              "vacant": false
+            },
+            {
+              "id": 3,
+              "vacant": false
+            },
+            {
+              "id": 4,
+              "vacant": false
+            },
+            {
+              "id": 5,
+              "vacant": false
+            },
+            {
+              "id": 6,
+              "vacant": false
+            },
+            {
+              "id": 7,
+              "vacant": false
+            }
+          ]
+        },
+        {
+          "type": "First-Class",
+          "total": 4,
+          "available_for_booking": 4,
+          "available": 2,
+          "sold": 2,
+          "price": 65,
+          "seats": [
+            {
+              "id": 1,
+              "vacant": false
+            },
+            {
+              "id": 2,
+              "vacant": false
+            },
+            {
+              "id": 3,
+              "vacant": true
+            },
+            {
+              "id": 4,
+              "vacant": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": 3,
+    "name": "Elton John In Toronto",
+    "genre": "Pop",
+    "age_to_attend": 17,
+    "disability_accessible": true,
+    "deal": false,
+    "performer": "Elton John",
+    "poster": "https://m.media-amazon.com/images/I/71SdfY3ZXwL._AC_SL1500_.jpg",
+    "sold_tickets": 6,
+    "times_viewed": 280,
+    "date": {
+      "year": 2023,
+      "month": 8,
+      "day": 28
+    },
+    "time": {
+      "start": "18:00",
+      "end": "21:00"
+    },
+    "venue": {
+      "name": "Rogers Centre",
+      "country": "Canada",
+      "city": "Toronto",
+      "address": "1 Blue Jays Way, Toronto, ON M5V 1J1",
+      "cheapest_seat": 49,
+      "seating": [
+        {
+          "type": "Silver",
+          "total": 32,
+          "available_for_booking": 5,
+          "available": 2,
+          "sold": 4,
+          "price": 49,
+          "seats": [
+            {
+              "id": 1,
+              "vacant": true
+            },
+            {
+              "id": 2,
+              "vacant": false
+            },
+            {
+              "id": 3,
+              "vacant": false
+            },
+            {
+              "id": 4,
+              "vacant": false
+            },
+            {
+              "id": 5,
+              "vacant": false
+            }
+          ]
+        },
+        {
+          "type": "Gold",
+          "total": 3,
+          "available_for_booking": 3,
+          "available": 1,
+          "sold": 2,
+          "price": 65,
+          "seats": [
+            {
+              "id": 1,
+              "vacant": false
+            },
+            {
+              "id": 2,
+              "vacant": false
+            },
+            {
+              "id": 3,
+              "vacant": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

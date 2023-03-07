@@ -1,0 +1,192 @@
+/* Light theme */
+/* If you want to override the behaviour of default color theme, add new class to hold light theme styles, and add it at the end. */
+#light-theme .background_color {
+    background: #F8F9FA !important;
+}
+
+#light-theme .regular_color {
+    color: black !important
+}
+
+#light-theme .attention_color {
+    color: #0B2E6F !important;
+}
+
+#light-theme .button_color {
+    background: #FF5733 !important;
+    border: 3px solid #0B2E6F !important;
+    color: black !important;
+}
+
+/* I ADDED FROM HERE ------- */
+#light-theme .viewed_color {
+    background: #ff5733aa !important;
+    border: 3px solid #0b2e6fcc !important;
+    color: black !important;
+}
+
+#light-theme .ticket-img {
+    border: 5px solid #0B2E6F !important;
+}
+
+#light-theme .border_color_second {
+    border: 3px solid #0B2E6F !important;
+}
+
+#light-theme .border_color_second_viewed {
+    border: 3px solid #0b2e6f99 !important;
+}
+
+#light-theme .dividor_color
+{
+    color: #0B2E6F;
+}
+
+#light-theme tr.collapse.header {
+    border-bottom: 2px solid #0B2E6F;
+    border-top: 2px solid #0B2E6F;
+}
+
+#light-theme thead.table_header {
+    border-bottom: 2px solid #0B2E6F;
+    border-top: 2px solid #0B2E6F;
+}
+
+#light-theme .table tbody tr.details {
+    background-color: #0062cc96 !important;
+}
+
+/* TO HERE --------- */
+#light-theme .button_color:hover {
+    background: #f76c4d !important;
+}
+
+#light-theme .attention_bg_color {
+    background: #0B2E6F !important;
+}
+
+#light-theme .close_sidenav_container {
+    border-bottom: 1px solid #0B2E6F !important;
+}
+
+#light-theme hr {
+    background: #0B2E6F !important;
+}
+
+#light-theme .headernavbar {
+    border-bottom: 1px solid #0B2E6F !important;
+}
+
+#light-theme .accordion {
+    background: #F8F9FA !important;
+}
+
+#light-theme .accordion-title {
+    background-color: #FF5733 !important;
+    color: black !important;
+}
+
+#light-theme .accordion-title.active {
+    background-color: #F8F9FA !important;
+    color: black !important;
+    border-bottom: 3px solid #0B2E6F !important;
+}
+
+#light-theme .sidenav_expand_button.inactive {
+    color: black !important;
+}
+
+#light-theme .seat.vacant {
+    fill: #007FFF !important;
+}
+
+#light-theme .seat.taken {
+    fill: #FFA07A !important;
+}
+
+#light-theme .seat.chosen {
+    fill: #60498f !important;
+}
+
+#light-theme .border_color {
+    border-color: black !important;
+}
+
+#light-theme .profile_dropdown_item:hover {
+    color: black !important;
+}
+
+#light-theme .accordion-title-link {
+    background: #FF5733 !important;
+    border: 3px solid transparent !important;
+}
+
+#light-theme .accordion-title-link:hover {
+    background: #f76c4d !important;
+    border: 3px solid #0B2E6F !important;
+}
+
+#light-theme .accordion-title-link:hover a {
+    color: black !important;
+}
+
+#light-theme .scene {
+    border: 10px solid #0B2E6F !important;
+    border-bottom: none !important;
+}
+
+#light-theme .orders_container {
+    border-left: 3px solid #0B2E6F !important;
+}
+
+#light-theme .fa-github {
+    color: black !important;
+}
+
+#light-theme .github_container {
+    border: 1px solid black !important;
+}
+
+#light-theme .github_container:hover {
+    background: black !important;
+}
+
+#light-theme .github_container:hover .fa-github {
+    color: white !important;
+}
+
+#light-theme .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230B2E6F' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+#light-theme .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230B2E6F' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#light-theme .carousel-caption {
+    border-top: solid #0B2E6F !important;
+    border-bottom: solid #0B2E6F !important;
+}
+
+#light-theme .footer {
+    border-top: 1px solid #0B2E6F !important;
+}
+
+#light-theme .logo {
+    background: #0B2E6F !important;
+    border: 3px solid #0B2E6F !important;
+    color: white !important;
+}
+
+#light-theme .tickets_table tr {
+    border-top: 2px solid #0B2E6F !important;
+}
+#light-theme .tickets_table thead th {
+    border-bottom: 2px solid #0B2E6F !important;
+}
+#light-theme .tickets_table thead tr:first-child {
+    border-top: 2px solid black !important;
+}
+#light-theme .table_bottom_edge {
+    border-bottom: 2px solid black !important;
+}

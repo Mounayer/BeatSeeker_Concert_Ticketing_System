@@ -1,0 +1,25 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %}
+  Profile
+{% endblock %}
+
+{% block content %}
+<script src="{% static 'scripts/user_tickets.js' %}"></script>
+<link rel="stylesheet" href="{% static 'styles/tickets.css' %}">
+<form action="" method="post">{% csrf_token %}
+</form>
+
+{% if messages %}
+  {% for message in messages %}
+    {% if message.tags %}
+      <script>alert("{{ message }}")</script>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<div class="text-center" id="purchase_content">
+    <!-- CONTENT HERE -->
+</div>
+{% endblock %}

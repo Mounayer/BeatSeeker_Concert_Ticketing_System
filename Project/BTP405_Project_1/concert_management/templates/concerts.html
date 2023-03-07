@@ -1,0 +1,54 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %}
+Concerts
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'styles/concerts.css' %}">
+
+<div class="row d-flex justify-content-center">
+    <nav class="navbar navbar-expand-sm px-3 w-100 justify-content-center background_color">
+        <div class="navbar-nav">
+            <a class="attention_hover concert-navbar-element navbar-brand mb-0 h1 font_family attention_color" href="#"
+               id="dealslink">Deals</a>
+            <a class="attention_hover concert-navbar-element navbar-brand mb-0 h1 font_family attention_color" href="#"
+               id="topsellerslink">Top Sellers</a>
+            <a class="attention_hover concert-navbar-element navbar-brand mb-0 h1 font_family attention_color" href="#"
+               id="disabilitylink">Disability Accessible</a>
+        </div>
+    </nav>
+    <div class="form-group d-flex align-items-center my-auto">
+        <input type="date" class="form-control mr-3" id="dateinput">
+        <input id="concerts_search_box" type="search" class="form-control mr-3" placeholder="Search">
+        <select id="concerts_selection_box" class="form-control">
+        </select>
+        &nbsp;&nbsp;
+        <button id="concert_search_button" class="btn  button_color font_family">Search</button>
+    </div>
+</div>
+<br>
+
+<div class="row d-flex justify-content-center">
+
+    <nav class="navbar navbar-expand-sm px-3 d-xl-flex d-none w-100 justify-content-center background_color">
+        <div class="d-flex flex-wrap justify-content-center" id="genre_navbar_items">
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-sm px-3 d-xl-flex d-none w-100 justify-content-center background_color">
+        <div class="d-flex flex-wrap justify-content-center" id="genre_navbar_items_2">
+        </div>
+    </nav>
+</div>
+
+<br>
+<div class="container-fluid justify-content-center">
+    <div class="row justify-content-center">
+        <div class="col-12 justify-content-center" id="cards_container">
+        </div>
+    </div>
+</div>
+<script defer src="{% static 'scripts/concerts.js' %}"></script>
+{% endblock %}

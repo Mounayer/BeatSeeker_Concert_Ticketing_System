@@ -1,0 +1,20 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %}
+Sell Tickets
+{% endblock %}
+
+{% block content %}
+<script defer src="{% static 'scripts/sell_tickets.js' %}"></script>
+<link rel="stylesheet" href="{% static 'styles/admin.css' %}">
+
+<br>
+<h1 class="text-center attention_color">Sell Tickets</h1>
+<br><br>
+
+<div class="container-fluid" id="sellrequest">
+
+</div>
+
+{% endblock %}

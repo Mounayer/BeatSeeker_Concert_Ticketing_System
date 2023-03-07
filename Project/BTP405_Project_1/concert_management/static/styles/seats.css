@@ -1,0 +1,292 @@
+.scene {
+    width: 80%;
+    height: 100px; /* as the half of the width */
+    background-color: transparent;
+    margin: auto;
+    border-top-left-radius: 110px; /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px solid #FFC107;
+    border-bottom: 0;
+}
+.layout {
+    width: 80%;
+}
+.seats_row {
+    position: relative;
+}
+.seats_row_number {
+    position: absolute;
+    left: -50px;
+}
+.chair-container {
+    display: inline-block;
+    margin: 0 !important;
+    max-width: 27px !important;
+}
+.seat {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.seat.vacant {
+    fill: #06D618 !important;
+}
+.seat.not_available {
+    fill: grey !important;
+}
+.seat.taken {
+    fill: #FF0000 !important;
+}
+.seat.chosen {
+    fill: #fcba03 !important;
+}
+
+.concert_small_poster {
+    border: none;
+    outline: none;
+    height: 150px;
+    width: auto;
+}
+
+.concert_details {
+    font-weight: normal;
+}
+
+.seat_type_container {
+    margin-bottom: 50px;
+}
+
+.orders_container {
+    overflow: auto;
+    height: 100%;
+    border-left: 3px solid #FFC107;
+}
+
+.ticket {
+    display: block;
+    width: 100%;
+    margin: auto;
+    max-width: 400px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #7b1fa2, #4a148c);
+    border: 5px solid #7b1fa2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #7b1fa2;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.cross_container {
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    right: 0;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.cross {
+    color: white;
+}
+
+.ticket:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px #7b1fa2;
+}
+
+.ticket::before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    bottom: -100px;
+    left: -100px;
+    background-image: linear-gradient(to bottom, #4a148c, #7b1fa2);
+    transform: skewY(-15deg);
+    transform-origin: top left;
+    z-index: -1;
+}
+
+.ticket h3 {
+    margin: 0;
+    color: #fff;
+    text-shadow: 1px 1px #7b1fa2;
+    font-size: 36px;
+}
+
+.ticket p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.barcode {
+    display: block;
+    width: auto;
+    height: 100px;
+}
+
+.ticket .icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #7b1fa2;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    margin: 20px auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.ticket .icon i {
+    color: #7b1fa2;
+    transform: rotate(0deg);
+    transition: all 1s ease-in-out;
+}
+
+.ticket:hover .icon i {
+    transform: rotate(360deg);
+}
+.tickets_container {
+    padding: 50px;
+}
+@media (max-width: 1399px) {
+    .col-xxl {
+        width: 100%;
+    }
+
+    .col-300px {
+        width: 100%;
+    }
+
+    .chair-container {
+        width: 50px;
+        max-width: none;
+    }
+
+    .layout {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .orders_container {
+        border: none !important;
+    }
+    .tickets_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-height: 100px !important;
+        flex-wrap: wrap;
+    }
+    .ticket {
+        width: 300px;
+
+        margin: 0px !important;
+    }
+    .tickets_container {
+        max-height: none !important;
+    }
+    .seats_row_number {
+        left: 27px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .col-xxl {
+        width: auto;
+    }
+    .col-300px {
+        width: 400px;
+        padding: 15px !important;
+    }
+    .tickets_container {
+        max-height: 100px !important;
+    }
+    .divider_line.tickets_line {
+        display: none !important;
+        width: 0 !important;
+    }
+    .ticket {
+        margin: 15px !important;
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .modal {
+        display: none !important;
+    }
+
+    .modal-backdrop {
+        display: none !important;
+    }
+
+    .seats_row {
+        align-items: center;
+        display: flex;
+    }
+}
+
+@media (max-width: 1000px) {
+    .layout_container {
+        display: none;
+    }
+    .modal .scene {
+        width: 60% !important;
+    }
+    .concert_preview_col {
+        width: 100% !important;
+        text-align: center;
+    }
+    .concert_small_poster {
+        display: block !important;
+        height: auto !important;
+        max-width: 800px !important;
+        margin: auto !important;
+        margin-bottom: 30px !important;
+        width: 100% !important;
+        object-fit: cover;
+    }
+    .chair-container {
+        width: 10px;
+        min-width: 10px !important;
+        max-width: none !important;
+    }
+
+    .layout_button {
+        display: block !important;
+        margin: 15px auto;
+    }
+
+    .modal-dialog-centered {
+        max-width: none !important;
+        width: 100% !important;
+    }
+
+    .layout_modal_container {
+        min-width: 80%;
+    }
+    .card {
+        position: relative;
+        width: 100%;
+    }
+    .poster_desc {
+        position: absolute;
+        bottom: 0;
+        height: 100px !important;
+        width: 100%;
+        color: white;
+        background: black;
+        text-align: center;
+    }
+    .card-img {
+        max-height: 500px;
+        object-fit: contain;
+    }
+}

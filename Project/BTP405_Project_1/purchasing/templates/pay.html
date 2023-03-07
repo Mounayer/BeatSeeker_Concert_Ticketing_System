@@ -1,0 +1,41 @@
+{% extends "master.html" %}
+{% load static %}
+{% block title %}
+    Payment
+{% endblock %}
+
+{% block content %}
+    <script src="https://js.stripe.com/v3/"></script>
+    <h1 class="timeout_container regular_color"><span class="timer_1">You have</span> <span class="timeout attention_color"></span> <span class="timer_2">for payment</span>.</h1>
+    <table class="table regular_color tickets_table">
+        <thead>
+        <tr class="attention_color table_top_edge">
+            <th scope="col">#</th>
+            <th scope="col" class="seatName">Seat Name</th>
+            <th scope="col" class="seatPrice">Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+        <tr class="table_bottom_edge">
+            <th scope="row" colspan="2"></th>
+            <th scope="row"><span class="total">Total</span>: <span class="tickets_total attention_color"></span></th>
+        </tr>
+        </tfoot>
+    </table>
+    <form id="payment-form" method="post">{% csrf_token %}
+        <div class="form_inputs_container">
+            <div id="link-authentication-element">
+                <!--Stripe.js injects the Link Authentication Element-->
+            </div>
+            <div id="payment-element">
+                <!--Stripe.js injects the Payment Element-->
+            </div>
+        </div>
+        <button class="button_color mx-auto mt-3 d-none btn submit_button">Pay now</button>
+    </form>
+    <h1 class="text-center regular_color" style="visibility: hidden" id="payment_message">Container</h1>
+    <script defer src="{% static 'scripts/pay.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'styles/pay.css' %}">
+{% endblock %}

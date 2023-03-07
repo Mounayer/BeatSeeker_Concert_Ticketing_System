@@ -1,0 +1,18 @@
+Persona:
+Jimmy McGil, a 33 year old, is a lawyer working for the company HHM firm in Toronto. He is born and raised in Toronto, Canada. He graduated from University of Toronto. He is happily married and a proud father of 2 children. His hobbies outside of his career are sports, gaming, and music.
+
+When Jimmy was a high school student, he was really into music. He took music courses and always participated in his school's yearly Talent Night event, where students can perform and showcase their talents in various ways. It includes, but not limited to, singing, dancing, orchestra, band, peotry, etc. This is where he found his passion for playing the guitar, made new friends, and formed a band outside of school.
+
+He and his bandmates would gather every week to practice, take videos of them making covers of their favourite songs from their favourite bands. He and his bandmates continued to do this even after they graduated high school and college. Until one day, he found out that one of their favourite bands are having a concert in their area. When he tried to search for where they can buy tickets, he found a ticketing agency called BeatSeeker. He thinks that their website is very intuitive and user friendly so he thought of giving it a try.
+
+Scenario:
+Jimmy, a 33 year old lawyer living in Toronto, Canada, wants to go to a concert with his bandmates.
+He wants to create an account for BeatSeeker just in case that he would need to buy concert tickets again in the future. The website asks for his preferred login credentials, and his email address.
+He also saves his credit card information in his account so that whenever he will be buying a ticket, he doesn't need to re-enter his card information every time.
+
+User stories:
+As a customer, I would like to be able to create an account, so that I can save my payment information
+
+As a customer, I would like to be able to log in so that I can see my purchase history
+
+As a customer, I would like to be able to see the most popular concerts on the main page, so that I know which one to buy tickets for

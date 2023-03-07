@@ -1,0 +1,42 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block header %}
+
+{% endblock %}
+
+{% block title %}
+  Account
+{% endblock %}
+
+{% block content %}
+
+<br>
+<br>
+<br>
+<div class="container pt-5 pb-5 border_color">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="p-5">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col">
+          <a href="/account/register">
+            <button type="submit" class="btn btn-lg button_color font_family d-flex justify-content-center" style="width: 100px;">Register</button>
+          </a>
+        </div>
+
+        <div class="col">
+          <a href="/account/login">
+            <button type="reset" class="btn btn-lg button_color font_family d-flex justify-content-center" style="width: 100px;">Login</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+{% endblock %}

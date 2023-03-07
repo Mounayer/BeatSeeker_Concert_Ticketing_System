@@ -1,0 +1,111 @@
+get all concerts:
+_________________
+
+    api to get all Concerts in JSON format
+    route: /concert/api/all
+
+get concery by country:
+_______________________
+
+    api to get all Concerts by Country
+    route example: /concert/api/bycountry/?country=Canada
+
+get concert by most popular based on the times a concert is viewed on the website:
+__________________________________________________________________________________
+
+    api to get concerts sorted descending by times_viewed attribute
+    route example: /concert/api/mostpopular
+
+get concert by genre:
+_____________________
+
+    api to get all Concerts by Genre
+    route example: /concert/api/bygenre/?genre=Hip-Hop
+
+get concert by city:
+____________________
+
+    api to get all Concerts by city
+    route example: /concert/api/bycity/?city=Toronto
+
+get concery by city and country:
+________________________________
+
+    api to get all Concerts by city and country
+    route example: /concert/api/bycityandcountry/?city=Toronto&country=Canada
+
+get concert by age to attend and below:
+_______________________________________
+
+    api to get all Concerts by age to attend and below
+    route example: /concert/api/byagetoattend/?AgeToAttend=21
+
+get concert by date and time:
+_____________________________
+
+    api to get all Concerts by date and time
+    route example: /concert/api/bydateandtime/?year=2011&month=12&day=10&time=19:00
+
+    all parameters are optional, they work alone and together,
+    even in a custom setting, such as:
+    route example: /concert/api/bydateandtime/?year=2024&time=19:00
+
+get concert by disability accessibility:
+________________________________________
+
+    api to get all Concerts by disability accessibility
+    route example: /concert/api/disability/?accessible=True
+
+get concert by cheapest seat price:
+___________________________________
+
+    api to get all Concerts cheapest seat price
+    route example: /concert/api/cheapestprice/?price=232
+
+get concert by top sellers:
+___________________________
+
+    api to get concerts sorted descending by top sellers
+    route example: /concert/api/topsellers/
+
+get concert by deals:
+_____________________
+
+    api to get all Concerts by deals
+    route example: /concert/api/deals/?deal=true
+
+get concert by venue name:
+__________________________
+
+    api to get all Concerts by venue name
+    route example: /concert/api/venue/?name=ScotiaBank%Arena
+
+get concert by performer name:
+______________________________
+
+    api to get all Concerts by performer name
+    route example: /concert/api/performername/?performername=Eminem
+
+    another
+
+    route example: /concert/api/performername/?performername=The%Beatles
+
+Update a Concert:
+_________________
+
+    post API to update a concert:
+    A concert with the same id as the one in the body will be updated
+    /concert/api/updateconcert/
+
+Get concert by ID:
+__________________
+
+    api to get a concert by ID:
+    route example: /concert/api/concertbyid/?id=1
+
+
+Create A New Concert:
+_____________________
+
+    post API to add a concert, concert document format to be added is, example:
+    /concert/api/createconcert/

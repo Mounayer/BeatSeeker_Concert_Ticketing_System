@@ -1,0 +1,434 @@
+{
+  "seating": [
+      {
+        "type": "XL",
+        "total": 40,
+        "available": 20,
+        "sold": 20,
+        "price": 35,
+        "seats":
+        [
+        {
+          "id" : 1,
+          "vacant": true
+        },
+                {
+          "id" : 2,
+          "vacant": true
+        },        {
+          "id" : 3,
+          "vacant": true
+        },        {
+          "id" : 4,
+          "vacant": true
+        },        {
+          "id" : 5,
+          "vacant": false
+        },        {
+          "id" : 6,
+          "vacant": false
+        },        {
+          "id" : 7,
+          "vacant": true
+        },        {
+          "id" : 8,
+          "vacant": true
+        },        {
+          "id" : 9,
+          "vacant": true
+        },        {
+          "id" : 10,
+          "vacant": false
+        },        {
+          "id" : 11,
+          "vacant": true
+        },        {
+          "id" : 12,
+          "vacant": false
+        },        {
+          "id" : 13,
+          "vacant": true
+        },        {
+          "id" : 14,
+          "vacant": true
+        },        {
+          "id" : 15,
+          "vacant": true
+        },        {
+          "id" : 16,
+          "vacant": true
+        },        {
+          "id" : 17,
+          "vacant": false
+        },        {
+          "id" : 18,
+          "vacant": false
+        },        {
+          "id" : 19,
+          "vacant": false
+        },        {
+          "id" : 20,
+          "vacant": false
+        },        {
+          "id" : 21,
+          "vacant": false
+        },        {
+          "id" : 22,
+          "vacant": false
+        },        {
+          "id" : 23,
+          "vacant": false
+        },        {
+          "id" : 24,
+          "vacant": true
+        },        {
+          "id" : 25,
+          "vacant": true
+        },        {
+          "id" : 26,
+          "vacant": false
+        },        {
+          "id" : 27,
+          "vacant": false
+        },        {
+          "id" : 28,
+          "vacant": false
+        },        {
+          "id" : 29,
+          "vacant": false
+        },        {
+          "id" : 30,
+          "vacant": true
+        },        {
+          "id" : 31,
+          "vacant": false
+        },        {
+          "id" : 32,
+          "vacant": false
+        },        {
+          "id" : 33,
+          "vacant": false
+        },        {
+          "id" : 34,
+          "vacant": true
+        },        {
+          "id" : 35,
+          "vacant": true
+        },        {
+          "id" : 36,
+          "vacant": false
+        },        {
+          "id" : 37,
+          "vacant": true
+        },        {
+          "id" : 38,
+          "vacant": true
+        },        {
+          "id" : 39,
+          "vacant": true
+        },        {
+          "id" : 40,
+          "vacant": false
+        }
+        ]
+
+      },
+      {
+        "type": "Coach",
+        "total": 80,
+        "available": 40,
+        "sold": 40,
+        "price": 20,
+        "seats":
+        [
+        {
+          "id" : 1,
+          "vacant": true
+        },
+                {
+          "id" : 2,
+          "vacant": true
+        },        {
+          "id" : 3,
+          "vacant": true
+        },        {
+          "id" : 4,
+          "vacant": true
+        },        {
+          "id" : 5,
+          "vacant": false
+        },        {
+          "id" : 6,
+          "vacant": false
+        },        {
+          "id" : 7,
+          "vacant": true
+        },        {
+          "id" : 8,
+          "vacant": true
+        },        {
+          "id" : 9,
+          "vacant": true
+        },        {
+          "id" : 10,
+          "vacant": false
+        },        {
+          "id" : 11,
+          "vacant": true
+        },        {
+          "id" : 12,
+          "vacant": false
+        },        {
+          "id" : 13,
+          "vacant": true
+        },        {
+          "id" : 14,
+          "vacant": true
+        },        {
+          "id" : 15,
+          "vacant": true
+        },        {
+          "id" : 16,
+          "vacant": true
+        },        {
+          "id" : 17,
+          "vacant": false
+        },        {
+          "id" : 18,
+          "vacant": false
+        },        {
+          "id" : 19,
+          "vacant": false
+        },        {
+          "id" : 20,
+          "vacant": false
+        },        {
+          "id" : 21,
+          "vacant": false
+        },        {
+          "id" : 22,
+          "vacant": false
+        },        {
+          "id" : 23,
+          "vacant": false
+        },        {
+          "id" : 24,
+          "vacant": true
+        },        {
+          "id" : 25,
+          "vacant": true
+        },        {
+          "id" : 26,
+          "vacant": false
+        },        {
+          "id" : 27,
+          "vacant": false
+        },        {
+          "id" : 28,
+          "vacant": false
+        },        {
+          "id" : 29,
+          "vacant": false
+        },        {
+          "id" : 30,
+          "vacant": true
+        },        {
+          "id" : 31,
+          "vacant": false
+        },        {
+          "id" : 32,
+          "vacant": false
+        },        {
+          "id" : 33,
+          "vacant": false
+        },        {
+          "id" : 34,
+          "vacant": true
+        },        {
+          "id" : 35,
+          "vacant": true
+        },        {
+          "id" : 36,
+          "vacant": false
+        },        {
+          "id" : 37,
+          "vacant": true
+        },        {
+          "id" : 38,
+          "vacant": true
+        },        {
+          "id" : 39,
+          "vacant": true
+        },        {
+          "id" : 40,
+          "vacant": false
+        },
+          {
+          "id" : 41,
+          "vacant": true
+        },
+                {
+          "id" : 42,
+          "vacant": true
+        },        {
+          "id" : 43,
+          "vacant": true
+        },        {
+          "id" : 44,
+          "vacant": true
+        },        {
+          "id" : 45,
+          "vacant": false
+        },        {
+          "id" : 46,
+          "vacant": false
+        },        {
+          "id" : 47,
+          "vacant": true
+        },        {
+          "id" : 48,
+          "vacant": true
+        },        {
+          "id" : 49,
+          "vacant": true
+        },        {
+          "id" : 50,
+          "vacant": false
+        },        {
+          "id" : 51,
+          "vacant": true
+        },        {
+          "id" : 52,
+          "vacant": false
+        },        {
+          "id" : 53,
+          "vacant": true
+        },        {
+          "id" : 54,
+          "vacant": true
+        },        {
+          "id" : 55,
+          "vacant": true
+        },        {
+          "id" : 56,
+          "vacant": true
+        },        {
+          "id" : 57,
+          "vacant": false
+        },        {
+          "id" : 58,
+          "vacant": false
+        },        {
+          "id" : 59,
+          "vacant": false
+        },        {
+          "id" : 60,
+          "vacant": false
+        },        {
+          "id" : 61,
+          "vacant": false
+        },        {
+          "id" : 62,
+          "vacant": false
+        },        {
+          "id" : 63,
+          "vacant": false
+        },        {
+          "id" : 64,
+          "vacant": true
+        },        {
+          "id" : 65,
+          "vacant": true
+        },        {
+          "id" : 66,
+          "vacant": false
+        },        {
+          "id" : 67,
+          "vacant": false
+        },        {
+          "id" : 68,
+          "vacant": false
+        },        {
+          "id" : 69,
+          "vacant": false
+        },        {
+          "id" : 70,
+          "vacant": true
+        },        {
+          "id" : 71,
+          "vacant": false
+        },        {
+          "id" : 72,
+          "vacant": false
+        },        {
+          "id" : 73,
+          "vacant": false
+        },        {
+          "id" : 74,
+          "vacant": true
+        },        {
+          "id" : 75,
+          "vacant": true
+        },        {
+          "id" : 76,
+          "vacant": false
+        },        {
+          "id" : 77,
+          "vacant": true
+        },        {
+          "id" : 78,
+          "vacant": true
+        },        {
+          "id" : 79,
+          "vacant": true
+        },        {
+          "id" : 80,
+          "vacant": false
+        }
+        ]
+      },
+      {
+        "type": "First-Class",
+        "total": 10,
+        "available": 5,
+        "sold": 5,
+        "price": 90,
+        "seats":
+        [
+        {
+          "id" : 1,
+          "vacant": true
+        },
+                {
+          "id" : 2,
+          "vacant": true
+        },        {
+          "id" : 3,
+          "vacant": false
+        },        {
+          "id" : 4,
+          "vacant": true
+        },        {
+          "id" : 5,
+          "vacant": false
+        },        {
+          "id" : 6,
+          "vacant": false
+        },        {
+          "id" : 7,
+          "vacant": true
+        },        {
+          "id" : 8,
+          "vacant": true
+        },        {
+          "id" : 9,
+          "vacant": false
+        },        {
+          "id" : 10,
+          "vacant": false
+        }]
+
+
+      }
+    ]
+}

@@ -1,0 +1,20 @@
+Persona:
+
+Miguel, age 39, is an event administrator working for PKC Entertainment in Vancouver, Canada. He was born and raised in Mexico. His parents moved to Canada after he graduated high school, where he then pursued Business Administration.
+
+In Miguel's current workplace, he administrates the concerts of the artists that are signed in their company label. He is in charge of managing the setup of the artist's page on the ticketing system, to ensure that the event can be easily found and contains all the necessary information needed.
+
+But recently, the company has been receiving complaints about the unintuitiveness of the ticketing agency they have been using. There are complaints mostly about the website's filtering system. Miguel couldn't really do anything to fix that issue since the ticketing agency is not a part of their company.
+
+Miguel's only choice was to look for another ticketing agency, where he found this newly built system called BeatSeeker. He thinks about trying them out as they are mostly focused on concerts, and seem to have the proper filtering funcionality that he needs based on the complaints.
+
+Scenario:
+Miguel wants to create a page for an artist that will be having a concert to sell tickets. He goes to the website and logins as an admin by using the admin account provided by BeatSeeker thru superusers. He goes to add concert, and is asked to fill up a form for the information of the concert, such as: artist name, city and country, venue, date of event, seat types, and prices.
+In the event that a concert gets cancelled, postponed, or any information needs to be modified, Miguel will login to his admin account, go to the page of the concert that needs modification, and click on an edit/update button. From there, he will be able to put any necessary changes, and put important announcement and instructions for cancelled and postponed concerts.
+
+User stories:
+As an admin, I want to be able to directly manage a concert page for an artist, so that I won't need to call a ticket agent to make the changes for me.
+
+As an admin, I want to be able to see a list of all the concerts I am managing, so that I don't have to search for the specific concert if I want to make changes.
+
+As an admin, I want to be able to see the amount of tickets a concert sold that I am managing, so that I know how well the concert is doing

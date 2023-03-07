@@ -1,0 +1,84 @@
+Create filters that filter concerts by (genre, country, city, date, age to attend, band, top sellers, price, venue, disability acessible, concerts that have deals) on the website
+
+Create a filter that displays concerts that are being played locally
+
+Create a search box to find concerts by keywords in a title, or a band name.
+
+Create a pop up box that displays the price of the seat when hovering over it.
+
+Create a color code, one color for seats that are vacant, and one color for seats that are taken (preferably grayed out and unclickable)
+
+During seat selection, allow the user to select multiple seats at the same time, so they can purchase multiple tickets at the same time
+
+Create an icon of sorts, that is displayed next to the concert or venue, if it is accessible for disabled people (a note on the side can also be okay)
+
+After finalising the purchase, in addition to sending a copy of the receipt by email and a QR code, allow the user to download the receipt and ticket locally.
+
+Create a button in the concerts page for the "deals" that displays the concerts that has deals on its tickets
+
+Create an icon "DISCOUNT or SALE or PERCENTAGE of Discount" that is displayed next to concerts that have a discount on their tickets
+
+Create distributed security architecture "Store half of the client's information on one database and another half on another database, for extra security"
+
+Create a functionality that allows the artist or the artist's manager to see how many tickets have been sold for their concerts
+
+
+Create functionality to create concerts (creating a database for concerts and venues).
+
+Create functionality to sell tickets for concerts
+
+
+Create functionality to keep track of the number of seats sold by the system per venue and per concert
+
+
+As an event planner, I would like the concerts that I manage on BeatSeeker be seen when filtering by date, genre, country, Age to Attend and band, so that the concert gets more exposure.
+
+As a client, I would like to be able to see a price of a seat by hovering over it so that I don't have to go to the 'payments' page and read the price there.
+
+As a client, I would like to be able to see which seats are taken and which seats are vacant so that I don't have to read a lot of error messages like 'This seat is already taken, choose a different one'.
+
+As an admin, I want to be able to directly manage a concert page for an artist, so that I won't need to call a ticket agent to make the changes for me.
+
+As a customer, I would like to be able to create an account so that I can save my payment information
+
+As a customer, I would like to be able to see the most popular concerts on the main page, so that I know which one to buy tickets for
+
+As an artist I want to be able to see how many tickets have been sold.
+
+As an admin, I want to be able to see the amount of tickets a concert sold that I am managing, so that I know how well the concert is doing
+
+As a customer, I would like my credit cards and personal information to be secure, so that my credit card does not get stolen.
+
+As a customer, I would like to be able to find concerts that have deals on their tickets, so that I could save money buy purchasing the deals.
+
+As a customer, I want to be able to see information about the venue so that I can see if it is accessible for disabled people.
+
+As a client, I would like to be able to select multiple seats for a single transaction so that I don't have to repeat the whole process of buying a ticket from the very beginning multiple times.
+
+As an event planner, I would like the concerts that are locally playing be displayed somehow on the website, so that the concerts that I manage are found easier, locally.
+
+As a client, I would like to be able to search concerts by keywords in a title so that I don't have to search it myself using a lot of filters (genre, city, arena, etc).
+
+As an admin, I want to be able to see a list of all the concerts I am managing, so that I don't have to search for the specific concert if I want to make changes.
+
+As an event planner, I would like there to be a timeout of 10 minutes when the user is purchasing tickets, so that ticket scalpers are prevented
+
+As a customer, I would like to be able to log in so that I can see my purchase history
+
+As an event planner, I would like to be able to sell tickets for the concerts of bands and artists on BeatSeeker.
+
+As a customer, I would like to view the venue layout on the tickets purchasing page, so that I choose the seat I think I will like the most
+
+As a customer, I would like there to be a different theme for the website, so that I choose the theme that fits me best
+
+As a customer, I would like there to be a select a genre option in the concerts page, so that I can view the concerts whose genre is my favorite
+
+As an event planner, I would like there to be a timeout of 10 minutes when the user is purchasing tickets, so that ticket scalpers are prevented
+
+As a customer, I would like to be able to log in so that I can see my purchase history
+
+As a customer, I want to be able to download the PDF version of the tickets and receipt after checkout, so that I can have a copy on my local device as well as a copy in my email.
+
+
+
+

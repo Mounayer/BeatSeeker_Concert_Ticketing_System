@@ -1,0 +1,22 @@
+Persona:
+
+Jack is a 22 year old university student, who is studying in University of Toronto, Canada. He was born in Scarborough, Ontario. His father is a teacher and his mother is a housewife. He is currently perusing a software engineering degree.
+
+Jack likes to go to concert at least once a month. He always goes with his friends. Since tickets sell out fast he buys for his friends tickets as well. His friends pay him back later. He is very proficient with technology. recently, he missed a few concerts he was really looking forward to because Ticketmaster website crashed after the concerts were announced. He was very surprised to see a website owned by such a big company, not being able to handle the traffic. Moreover, he noticed that Ticketmaster only sells tickets for popular artists only. After facing the following issues, he is now looking at alternative ticket selling platforms.
+
+
+
+Scenario:
+
+Jack has recently discovered an up and coming artist named Joji in Spotify. He really liked his music and checked his social media if the artist has an upcoming concert. He saw that the artist was going on a tour, and he had a show in Danforth Music Hall in Toronto.
+
+
+Jack quickly went to the BeatSeeker website to see if tickets were on sale. He searched the artist name on the search tab. He saw a list of shows by the artist that have tickets available for them. He filtered the list by location, and he selected Toronto. He clicked the venue in Toronto from the list. A new web page opened with the venue and seats. Jack's sister recently had an accident, so he wants to take her with him to cheer her up. So, he needs the venue to be wheelchair accessible. Thankfully on the web page there is information about accessibility of the venue, parking space. After being satisfied with the venue he bought the tickets. After check out he got a pop up asking if he wanted to download a pdf version of the tickets and receipt. He agreed to download it since sometimes, important emails end up in junk mail and its hard to find.  
+
+
+
+
+User Stories:
+
+As a customer, I want to be able to see information about the venue so that I can see if it is accessible for disabled people.
+As a customer, I want to be able to download the PDF version of the tickets and receipt after checkout, so that I can have a copy on my local device as well as a copy in my email.
