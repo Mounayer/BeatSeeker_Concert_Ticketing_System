@@ -438,7 +438,7 @@ document.getElementById("createconcertbutton").addEventListener("click", () => {
                                   <th scope="row">${data[i]["seating"][j]["type"]}</th>
                                   <td>${data[i]["seating"][j]["total"]}</td>
                                   <td><input type="number" min="0" name="${data[i]["seating"][j]["type"]}number" id="${data[i]["seating"][j]["type"]}number"  class="form-control" required placeholder="0"></td>
-                                  <td><input type="number" min="0" name="${data[i]["seating"][j]["type"]}price" id="${data[i]["seating"][j]["type"]}price" class="form-control" required placeholder="0.0"></td>
+                                  <td><input type="number" value="0" min="0" name="${data[i]["seating"][j]["type"]}price" id="${data[i]["seating"][j]["type"]}price" class="form-control" required placeholder="0.0"></td>
                               </tr>                  
                   `;
               }
@@ -648,17 +648,21 @@ document.getElementById("createconcertbutton").addEventListener("click", () => {
                               disableLoadingCoverForElement(admin_content);
                             })
                             .catch((error) => {
+                              disableLoadingCoverForElement(admin_content);
                               console.log(error);
                             });
                       })
                       .catch((err) => {
+                        disableLoadingCoverForElement(admin_content);
                         console.log(err);
                       });
                 } else {
+                  disableLoadingCoverForElement(admin_content);
                   document.getElementById("global_error_message").innerText =
                       "A ticket price cannot be 0";
                 }
               } else {
+                disableLoadingCoverForElement(admin_content);
                 document.getElementById("global_error_message").innerText =
                     "Please fill out all the required fields that begin with *";
               }
@@ -666,6 +670,7 @@ document.getElementById("createconcertbutton").addEventListener("click", () => {
             });
       })
       .catch((err) => {
+        disableLoadingCoverForElement(admin_content);
         console.log(err);
       });
 });
@@ -1001,7 +1006,7 @@ document.getElementById("updateconcertbutton").addEventListener("click", () => {
                                   <th scope="row">${concertData["venue"]["seating"][j]["type"]}</th>
                                   <td>${concertData["venue"]["seating"][j]["total"]}</td>
                                   <td><input type="number" value="${concertData["venue"]["seating"][j]["available_for_booking"]}" min="0" name="${concertData["venue"]["seating"][j]["type"]}number" id="${concertData["venue"]["seating"][j]["type"]}number"  class="form-control" required placeholder="0"></td>
-                                  <td><input type="number" value="${concertData["venue"]["seating"][j]["price"]}" min="0" name="${concertData["venue"]["seating"][j]["type"]}price" id="${concertData["venue"]["seating"][j]["type"]}price" class="form-control" required placeholder="0.0"></td>
+                                  <td><input type="number" value="${concertData["venue"]["seating"][j]["price"]}" value="0" min="0" name="${concertData["venue"]["seating"][j]["type"]}price" id="${concertData["venue"]["seating"][j]["type"]}price" class="form-control" required placeholder="0.0"></td>
                               </tr>                  
                   `;
                       }
@@ -1244,18 +1249,22 @@ document.getElementById("updateconcertbutton").addEventListener("click", () => {
                                             disableLoadingCoverForElement(admin_content);
                                           })
                                           .catch((error) => {
+                                            disableLoadingCoverForElement(admin_content);
                                             console.log(error);
                                           });
                                     })
                                     .catch((err) => {
+                                      disableLoadingCoverForElement(admin_content);
                                       console.log(err);
                                     });
                               } else {
+                                disableLoadingCoverForElement(admin_content);
                                 document.getElementById(
                                     "global_error_message"
                                 ).innerText = "A ticket price cannot be 0";
                               }
                             } else {
+                              disableLoadingCoverForElement(admin_content);
                               document.getElementById(
                                   "global_error_message"
                               ).innerText =
@@ -1265,6 +1274,7 @@ document.getElementById("updateconcertbutton").addEventListener("click", () => {
                           });
                     })
                     .catch((err) => {
+                      disableLoadingCoverForElement(admin_content);
                       console.log(err);
                     });
 
@@ -1272,6 +1282,7 @@ document.getElementById("updateconcertbutton").addEventListener("click", () => {
               }
             })
             .catch((err) => {
+              disableLoadingCoverForElement(admin_content);
               admin_content.innerHTML = `
                     <div class="container">
                         <div class="divider dividor_color"></div>

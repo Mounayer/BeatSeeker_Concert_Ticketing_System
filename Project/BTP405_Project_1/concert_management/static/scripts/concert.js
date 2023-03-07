@@ -15,7 +15,8 @@ const dictionary = {
     buy_tickets: "BUY TICKETS",
     tickets_sold: "Tickets Sold",
     concert_id: "Concert ID",
-    genre: "Genre"
+    genre: "Genre",
+    venue_id: "Venue ID"
   },
   fr: {
     details: "Détails",
@@ -33,7 +34,8 @@ const dictionary = {
     buy_tickets: "ACHETER DES BILLETS",
     tickets_sold: "Billets Vendus",
     concert_id: "Identité Du Concert",
-    genre: "Genre"
+    genre: "Genre",
+    venue_id: "ID Du Lieu"
   },
 };
 
@@ -91,6 +93,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
       document.getElementById("venuename").innerText =
         `${lang.venue_name}: ` + data["venue"]["name"];
+
+      document.getElementById("thevenueid").innerText = `${lang.venue_id}: ` + data["venue"]["_id"];
+
       document.getElementById("venueaddress").innerText =
         `${lang.venue_address}: ` + data["venue"]["address"];
 
