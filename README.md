@@ -4,6 +4,15 @@
 
 **BeatSeeker** is an innovative concert-focused ticketing platform designed to streamline the process of purchasing and promoting concert tickets. Unlike general ticketing systems like TicketMaster, BeatSeeker specializes in providing a user-friendly experience specifically tailored to concert enthusiasts. With easy integration for new venues and customizable seat selection, BeatSeeker is a one-stop solution for an enjoyable concert-going experience."
 
+## Product Vision Statement
+
+For (music enthusiasts and artists)\
+WHO (are looking for a simple way to purchase and sell concert tickets)\
+The (BeatSeeker) is a website\
+That (sells tickets to live concerts in your area, helping discover unforgettable live experiences).\
+UNLIKE (TicketMaster),\
+BeatSeeker (focuses mainly on concerts, thus, variety and undiscovered talent will be found easier.)\
+
 ## Why was Beatseeker created?
 
 Initially conceived as a mandatory project for one of our courses, this endeavor aimed to familiarize us with **Jira**, **GitHub**, **user story creation**, **task management**, and **feature development**. Our task was to develop a straightforward system, adhering to specific requirements provided through Jira. However, my team ([Abdullah Al Mamun Fahim](https://github.com/aamfahim), [Andrii Sych](https://github.com/SychAndrii), [Cleo Buenaventura](https://github.com/cleobnvntra)) and I were determined to showcase our expertise and explore the full extent of our capabilities within the five-week timeframe. We are proud of the final outcome, which not only fulfilled the user requirements but also incorporated genuine interactivity. This included the integration of **Stripe** for secure credit card transactions, password reset **confirmation codes**, and the delivery of **PDF tickets** directly to customers upon purchase. Our project serves as a testament to our dedication and ability to exceed expectations.
