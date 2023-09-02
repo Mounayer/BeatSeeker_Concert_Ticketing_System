@@ -21,7 +21,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'beatseeker.receipts@gmail.com'
-EMAIL_HOST_PASSWORD = 'xhmdarkmhuzdockb'
+EMAIL_HOST_PASSWORD = 'tbf'
 RECIPIENT_ADDRESS = 'andrii.sych.2003@gmail.com'
 
 SESSION_COOKIE_AGE = 1800  # 1 hour in seconds. Tell me if you want to change it (Andrii).
