@@ -79,7 +79,6 @@ $(document).ready(async function () {
     const concert = await getConcertByID();
     fillPageWithData(concert);
     allowSelectingSeats();
-    document.getElementById("hiding").style.display = "block";
     disableLoadingCoverEntireContent();
 
     purchaseButton.addEventListener('click', async (e) => {

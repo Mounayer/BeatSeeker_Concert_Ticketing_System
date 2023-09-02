@@ -15,8 +15,7 @@ const dictionary = {
     buy_tickets: "BUY TICKETS",
     tickets_sold: "Tickets Sold",
     concert_id: "Concert ID",
-    genre: "Genre",
-    venue_id: "Venue ID"
+    genre: "Genre"
   },
   fr: {
     details: "Détails",
@@ -34,13 +33,13 @@ const dictionary = {
     buy_tickets: "ACHETER DES BILLETS",
     tickets_sold: "Billets Vendus",
     concert_id: "Identité Du Concert",
-    genre: "Genre",
-    venue_id: "ID Du Lieu"
+    genre: "Genre"
   },
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-
+  // createLoadingCoverForElement(document.getElementById("concert_container"));
+  // activateLoadingCoverForElement(document.getElementById("concert_container"));
   addLoadingCoverEntireContent();
 
   let lang = translation(dictionary);
@@ -93,9 +92,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       document.getElementById("venuename").innerText =
         `${lang.venue_name}: ` + data["venue"]["name"];
-
-      document.getElementById("thevenueid").innerText = `${lang.venue_id}: ` + data["venue"]["_id"];
-
       document.getElementById("venueaddress").innerText =
         `${lang.venue_address}: ` + data["venue"]["address"];
 
@@ -116,8 +112,9 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = `/concert/seats/?id=${the_id}`;
       });
 
-      document.getElementById("concert_container").style.display = "block";
-
+      // disableLoadingCoverForElement(
+      //   document.getElementById("concert_container")
+      // );
       disableLoadingCoverEntireContent();
     })
     .catch((err) => {

@@ -400,34 +400,15 @@ document
     } else if (search_by === "City") {
       getDataAndCreateConcertCards(`/concert/api/bycity/?city=${search_query}`);
     } else if (search_by === "Age To Attend") {
-      if(parseInt(search_by) == search_by)
-      {
-        getDataAndCreateConcertCards(`/concert/api/byage/?age=${search_query}`);
-      }
-      else
-      {
-        getDataAndCreateConcertCards(`/concert/api/byage/?age=0`);
-      }
-
+      getDataAndCreateConcertCards(`/concert/api/byage/?age=${search_query}`);
     } else if (search_by === "Performer") {
       getDataAndCreateConcertCards(
         `/concert/api/performername/?performername=${search_query}`
       );
     } else if (search_by === "Price") {
-
-      if(parseFloat(search_by) == search_by)
-      {
-              getDataAndCreateConcertCards(
+      getDataAndCreateConcertCards(
         `/concert/api/byprice/?price=${search_query}`
       );
-      }
-      else
-      {
-        getDataAndCreateConcertCards(
-        `/concert/api/byprice/?price=0`
-      );
-      }
-
     } else if (search_by === "Venue") {
       getDataAndCreateConcertCards(`/concert/api/venue/?name=${search_query}`);
     }

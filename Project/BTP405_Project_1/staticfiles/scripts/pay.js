@@ -350,7 +350,6 @@ function createStripeForm() {
             });
             console.log(document.querySelector('#root'));
             disableLoadingCoverEntireContent();
-            document.getElementById("hidepls").style.display = "block";
         });
     }
 
@@ -385,6 +384,7 @@ function createStripeForm() {
     async function handleSubmit(e) {
         setCounter = false;
         e.preventDefault();
+        clearInterval(intervalID);
         setLoading(true);
         await checkStatus();
         await setEmailInSession(emailAddress);
@@ -404,12 +404,6 @@ function createStripeForm() {
         } else {
             showMessage("An unexpected error occurred.");
         }
-
-        if(!error)
-        {
-            clearInterval(intervalID);
-        }
-
 
         setLoading(false);
     }

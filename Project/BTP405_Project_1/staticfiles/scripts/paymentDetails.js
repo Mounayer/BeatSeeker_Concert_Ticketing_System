@@ -235,7 +235,6 @@ function getSeatType(seatName) {
   await specifyUserDetails();
   await activateTimer();
   disableLoadingCoverEntireContent();
-  document.getElementById("hideplsmore").style.display = "block";
 })();
 let totalPrice = 0;
 
@@ -285,6 +284,7 @@ paymentButton.addEventListener("click", handleSubmit);
 
 async function handleSubmit(e) {
   e.preventDefault();
+  clearInterval(intervalID);
   paymentButton.disabled = true;
 
   const res = await sendJSON(
@@ -298,7 +298,6 @@ async function handleSubmit(e) {
   const json = await res.json();
 
   if (json.status) {
-    clearInterval(intervalID);
     redirect(`/payment/lang/`);
   } else {
     showMessage("Something went wrong. Please try again.");
